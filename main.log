@@ -1,0 +1,36 @@
+======== [ LOG CREATION: 05/12/2022, 14:10:51 ] ========
+[05/12/2022, 14:10:51][MAIN] : NOTE: Logger started!
+[05/12/2022, 14:10:51][MQTT] : NOTE: Logger linked!
+[05/12/2022, 14:10:51][DS] : NOTE: Logger linked!
+[05/12/2022, 14:10:51][TEMP] : NOTE: Logger linked!
+[05/12/2022, 14:10:51][MQTT] : NOTE: Waiting for Connection...
+[05/12/2022, 14:10:51][MQTT] : NOTE: Callback recorded: light
+[05/12/2022, 14:10:51][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 14:10:51][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 14:10:51][MAIN] : WARN:Temp returned invalid value!
+[05/12/2022, 14:10:51][MQTT] : NOTE: Connection Established!
+[05/12/2022, 14:10:55][DS] : NOTE: Cleaning up...
+======== [ RESTART: 05/12/2022, 14:11:18 ] ========
+[05/12/2022, 14:11:18][MAIN] : NOTE: Logger started!
+[05/12/2022, 14:11:18][MQTT] : NOTE: Logger linked!
+[05/12/2022, 14:11:18][DS] : NOTE: Logger linked!
+[05/12/2022, 14:11:18][TEMP] : NOTE: Logger linked!
+[05/12/2022, 14:11:18][MQTT] : NOTE: Waiting for Connection...
+[05/12/2022, 14:11:18][MQTT] : NOTE: Callback recorded: light
+[05/12/2022, 14:11:18][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 14:11:18][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 14:11:18][MAIN] : WARN:Temp returned invalid value!
+[05/12/2022, 14:11:18][MQTT] : NOTE: Connection Established!
+[05/12/2022, 14:11:20][DS] : NOTE: Cleaning up...
+======== [ RESTART: 05/12/2022, 14:12:05 ] ========
+[05/12/2022, 14:12:05][MAIN] : NOTE: Logger started!
+[05/12/2022, 14:12:05][MQTT] : NOTE: Logger linked!
+[05/12/2022, 14:12:05][DS] : NOTE: Logger linked!
+[05/12/2022, 14:12:05][TEMP] : NOTE: Logger linked!
+[05/12/2022, 14:12:05][MQTT] : NOTE: Waiting for Connection...
+[05/12/2022, 14:12:05][MQTT] : NOTE: Callback recorded: light
+[05/12/2022, 14:12:05][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 14:12:05][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 14:12:05][MAIN] : WARN:Temp returned invalid value!
+[05/12/2022, 14:12:05][MQTT] : NOTE: Connection Established!
+[05/12/2022, 14:12:08][DS] : NOTE: Cleaning up...

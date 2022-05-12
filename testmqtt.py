@@ -29,7 +29,7 @@ client.connect("ebcd0562010d4d17b2acce44d85128f1.s1.eu.hivemq.cloud", 8883);
 
 client.loop_start() 
 
-while True: 
-        
-        (rc, mid) = client.publish("temp/value","Python", qos=1) 
+#while True: 
+#        
+#        (rc, mid) = client.publish("temp/value","Python", qos=1) 
         
