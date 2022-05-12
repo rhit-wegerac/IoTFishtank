@@ -3,6 +3,7 @@ import time
 import RPi.GPIO as gpio
 detection=18
 pump=21
+gpio.setwarnings(False)
 gpio.setmode(gpio.BCM)
 gpio.setup(pump,gpio.OUT)
 gpio.setup(detection,gpio.IN,pull_up_down=gpio.PUD_DOWN)
@@ -42,5 +43,5 @@ def cleanup():
 	global logger
 	gpio.cleanup()
 #	print("[DS] : Cleaning up..")
-	logger.log_info(MY_NAME,"Cleaning up...")
+	logger.log_special(MY_NAME,"Cleaning up...")
 print("[DS] : Dissolved Solids started")

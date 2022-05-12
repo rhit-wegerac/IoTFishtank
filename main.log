@@ -1,36 +1,342 @@
-======== [ LOG CREATION: 05/12/2022, 14:10:51 ] ========
-[05/12/2022, 14:10:51][MAIN] : NOTE: Logger started!
-[05/12/2022, 14:10:51][MQTT] : NOTE: Logger linked!
-[05/12/2022, 14:10:51][DS] : NOTE: Logger linked!
-[05/12/2022, 14:10:51][TEMP] : NOTE: Logger linked!
-[05/12/2022, 14:10:51][MQTT] : NOTE: Waiting for Connection...
-[05/12/2022, 14:10:51][MQTT] : NOTE: Callback recorded: light
-[05/12/2022, 14:10:51][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
-[05/12/2022, 14:10:51][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
-[05/12/2022, 14:10:51][MAIN] : WARN:Temp returned invalid value!
-[05/12/2022, 14:10:51][MQTT] : NOTE: Connection Established!
-[05/12/2022, 14:10:55][DS] : NOTE: Cleaning up...
-======== [ RESTART: 05/12/2022, 14:11:18 ] ========
-[05/12/2022, 14:11:18][MAIN] : NOTE: Logger started!
-[05/12/2022, 14:11:18][MQTT] : NOTE: Logger linked!
-[05/12/2022, 14:11:18][DS] : NOTE: Logger linked!
-[05/12/2022, 14:11:18][TEMP] : NOTE: Logger linked!
-[05/12/2022, 14:11:18][MQTT] : NOTE: Waiting for Connection...
-[05/12/2022, 14:11:18][MQTT] : NOTE: Callback recorded: light
-[05/12/2022, 14:11:18][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
-[05/12/2022, 14:11:18][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
-[05/12/2022, 14:11:18][MAIN] : WARN:Temp returned invalid value!
-[05/12/2022, 14:11:18][MQTT] : NOTE: Connection Established!
-[05/12/2022, 14:11:20][DS] : NOTE: Cleaning up...
-======== [ RESTART: 05/12/2022, 14:12:05 ] ========
-[05/12/2022, 14:12:05][MAIN] : NOTE: Logger started!
-[05/12/2022, 14:12:05][MQTT] : NOTE: Logger linked!
-[05/12/2022, 14:12:05][DS] : NOTE: Logger linked!
-[05/12/2022, 14:12:05][TEMP] : NOTE: Logger linked!
-[05/12/2022, 14:12:05][MQTT] : NOTE: Waiting for Connection...
-[05/12/2022, 14:12:05][MQTT] : NOTE: Callback recorded: light
-[05/12/2022, 14:12:05][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
-[05/12/2022, 14:12:05][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
-[05/12/2022, 14:12:05][MAIN] : WARN:Temp returned invalid value!
-[05/12/2022, 14:12:05][MQTT] : NOTE: Connection Established!
-[05/12/2022, 14:12:08][DS] : NOTE: Cleaning up...
+======== [ LOG CREATION: 05/12/2022, 15:26:52 ] ========
+[05/12/2022, 15:26:52][MAIN] : INFO : Logger started!
+[05/12/2022, 15:26:52][MQTT] : INFO : Logger linked!
+[05/12/2022, 15:26:52][DS] : INFO : Logger linked!
+[05/12/2022, 15:26:52][TEMP] : INFO : Logger linked!
+[05/12/2022, 15:26:52][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 15:26:52][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 15:26:52][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 15:26:52][MAIN] : NOTICE :System Started!
+[05/12/2022, 15:26:52][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:26:52][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:26:52][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:26:52][MAIN] : INFO : Water level has changed
+[05/12/2022, 15:26:52][MAIN] : WARN :Water level is low!
+[05/12/2022, 15:26:52][MAIN] : INFO : Power status changed
+[05/12/2022, 15:26:52][MQTT] : INFO : Connection Established!
+[05/12/2022, 15:26:52][MAIN] : WARN :Power has been lost!
+[05/12/2022, 15:27:02][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:27:02][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:27:02][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:27:09][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 15:27:09][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 15:27:24 ] ========
+[05/12/2022, 15:27:24][MAIN] : INFO : Logger started!
+[05/12/2022, 15:27:24][MQTT] : INFO : Logger linked!
+[05/12/2022, 15:27:24][DS] : INFO : Logger linked!
+[05/12/2022, 15:27:24][TEMP] : INFO : Logger linked!
+[05/12/2022, 15:27:24][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 15:27:24][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 15:27:24][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 15:27:24][MAIN] : NOTICE :System Started!
+[05/12/2022, 15:27:24][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:27:24][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:27:24][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:27:24][MAIN] : INFO : Water level has changed
+[05/12/2022, 15:27:24][MAIN] : WARN :Water level is low!
+[05/12/2022, 15:27:24][MAIN] : INFO : Power status changed
+[05/12/2022, 15:27:24][MQTT] : INFO : Connection Established!
+[05/12/2022, 15:27:24][MAIN] : WARN :Power has been lost!
+[05/12/2022, 15:27:33][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 15:27:33][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 15:27:48 ] ========
+[05/12/2022, 15:27:48][MAIN] : INFO : Logger started!
+[05/12/2022, 15:27:48][MQTT] : INFO : Logger linked!
+[05/12/2022, 15:27:48][DS] : INFO : Logger linked!
+[05/12/2022, 15:27:48][TEMP] : INFO : Logger linked!
+[05/12/2022, 15:27:48][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 15:27:49][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 15:27:49][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 15:27:49][MAIN] : NOTICE :System Started!
+[05/12/2022, 15:27:49][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:27:49][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:27:49][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:27:49][MAIN] : INFO : Water level has changed
+[05/12/2022, 15:27:49][MAIN] : WARN :Water level is low!
+[05/12/2022, 15:27:49][MAIN] : INFO : Power status changed
+[05/12/2022, 15:27:49][MQTT] : INFO : Connection Established!
+[05/12/2022, 15:27:49][MAIN] : WARN :Power has been lost!
+[05/12/2022, 15:27:59][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:27:59][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:27:59][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:28:09][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:28:09][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:28:09][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:28:19][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:28:19][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:28:19][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:28:19][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 15:28:19][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 15:31:44 ] ========
+[05/12/2022, 15:31:44][MAIN] : INFO : Logger started!
+[05/12/2022, 15:31:44][MQTT] : INFO : Logger linked!
+[05/12/2022, 15:31:44][DS] : INFO : Logger linked!
+[05/12/2022, 15:31:44][TEMP] : INFO : Logger linked!
+[05/12/2022, 15:31:44][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 15:31:45][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 15:31:45][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 15:31:45][MAIN] : NOTICE :System Started!
+[05/12/2022, 15:31:45][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:31:45][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:31:45][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:31:45][MAIN] : INFO : Water level has changed
+[05/12/2022, 15:31:45][MAIN] : WARN :Water level is low!
+[05/12/2022, 15:31:45][MAIN] : INFO : Power status changed
+[05/12/2022, 15:31:45][MAIN] : WARN :Power has been lost!
+[05/12/2022, 15:31:45][MQTT] : INFO : Connection Established!
+[05/12/2022, 15:31:55][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:31:55][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:31:55][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:32:05][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:32:05][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:32:05][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:32:15][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:32:15][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:32:15][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:32:25][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:32:25][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:32:25][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:32:35][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 15:32:35][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 15:32:35][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 15:32:36][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 15:32:36][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:05:39 ] ========
+[05/12/2022, 16:05:39][MAIN] : INFO : Logger started!
+[05/12/2022, 16:05:39][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:05:39][DS] : INFO : Logger linked!
+[05/12/2022, 16:05:39][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:05:39][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:05:40][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:05:40][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:05:40][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:05:40][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:05:40][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:05:40][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:05:40][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:05:40][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:05:40][MAIN] : INFO : Power status changed
+[05/12/2022, 16:05:40][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:05:40][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:05:46][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:05:46][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:06:58 ] ========
+[05/12/2022, 16:06:58][MAIN] : INFO : Logger started!
+[05/12/2022, 16:06:58][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:06:58][DS] : INFO : Logger linked!
+[05/12/2022, 16:06:58][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:06:58][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:06:59][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:06:59][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:06:59][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:06:59][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:06:59][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:06:59][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:06:59][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:06:59][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:06:59][MAIN] : INFO : Power status changed
+[05/12/2022, 16:06:59][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:06:59][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:07:09][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:07:09][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:07:09][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:07:11][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:07:11][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:13:21 ] ========
+[05/12/2022, 16:13:21][MAIN] : INFO : Logger started!
+[05/12/2022, 16:13:21][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:13:21][DS] : INFO : Logger linked!
+[05/12/2022, 16:13:21][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:13:21][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:13:22][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:13:22][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:13:22][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:13:22][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:13:22][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:13:22][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:13:22][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:13:22][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:13:22][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:13:22][MAIN] : INFO : Power status changed
+[05/12/2022, 16:13:22][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:13:24][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:13:24][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:18:07 ] ========
+[05/12/2022, 16:18:07][MAIN] : INFO : Logger started!
+[05/12/2022, 16:18:07][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:18:07][DS] : INFO : Logger linked!
+[05/12/2022, 16:18:07][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:18:07][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:18:07][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:18:07][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:18:07][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:18:07][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:18:07][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:18:07][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:18:07][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:18:07][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:18:07][MAIN] : INFO : Power status changed
+[05/12/2022, 16:18:07][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:18:07][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:18:17][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:18:17][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:18:17][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:18:27][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:18:27][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:18:27][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:18:38][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:18:38][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:18:38][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:18:48][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:18:48][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:18:48][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:18:58][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:18:58][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:18:58][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:19:08][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:19:08][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:19:08][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:19:18][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:19:18][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:19:18][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:19:28][TEMP] : ERROR : Failed to read RAW temp! : name 'device_file' is not defined
+[05/12/2022, 16:19:28][TEMP] : ERROR : Failed to read temp! : 'NoneType' object is not subscriptable
+[05/12/2022, 16:19:28][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:19:35][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:19:35][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:45:51 ] ========
+[05/12/2022, 16:45:51][MAIN] : INFO : Logger started!
+[05/12/2022, 16:45:51][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:45:51][DS] : INFO : Logger linked!
+[05/12/2022, 16:45:51][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:45:51][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:45:52][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:45:52][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:45:52][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:45:52][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:45:52][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/12/2022, 16:45:52][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:45:52][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:45:52][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:45:52][MAIN] : INFO : Power status changed
+[05/12/2022, 16:45:52][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:46:03][MAIN] : INFO : Temperatrue has changed!
+[05/12/2022, 16:46:17][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:46:17][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:46:43 ] ========
+[05/12/2022, 16:46:43][MAIN] : INFO : Logger started!
+[05/12/2022, 16:46:43][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:46:43][DS] : INFO : Logger linked!
+[05/12/2022, 16:46:43][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:46:43][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:46:43][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:46:43][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:46:43][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:46:43][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:46:43][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/12/2022, 16:46:43][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:46:43][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:46:43][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:46:43][MAIN] : INFO : Power status changed
+[05/12/2022, 16:46:43][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:46:54][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:48:53][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:49:04][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:49:58][MAIN] : INFO : Temperatrue has changed! : 73.29
+[05/12/2022, 16:50:09][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:50:42][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:50:52][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:51:03][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:51:25][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:51:36][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:51:47][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:51:57][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:52:08][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:52:19][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:52:30][MAIN] : INFO : Temperatrue has changed! : 72.95
+[05/12/2022, 16:52:31][MQTT] : INFO : Received: light b'off'
+[05/12/2022, 16:52:41][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:52:59][MQTT] : INFO : Received: light b'red'
+[05/12/2022, 16:53:02][MAIN] : INFO : Temperatrue has changed! : 73.29
+[05/12/2022, 16:53:13][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:53:46][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:53:57][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:54:40][MAIN] : INFO : Temperatrue has changed! : 72.95
+[05/12/2022, 16:55:05][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:55:05][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:58:21 ] ========
+[05/12/2022, 16:58:21][MAIN] : INFO : Logger started!
+[05/12/2022, 16:58:21][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:58:21][DS] : INFO : Logger linked!
+[05/12/2022, 16:58:21][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:58:21][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:58:21][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:58:21][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:58:21][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:58:21][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:58:46 ] ========
+[05/12/2022, 16:58:46][MAIN] : INFO : Logger started!
+[05/12/2022, 16:58:46][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:58:46][DS] : INFO : Logger linked!
+[05/12/2022, 16:58:46][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:58:46][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:58:47][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:58:47][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:58:47][MQTT] : INFO : Callback recorded: measure/ds
+[05/12/2022, 16:58:47][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:58:47][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:58:47][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/12/2022, 16:58:47][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:58:47][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:58:47][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:58:47][MAIN] : INFO : Power status changed
+[05/12/2022, 16:58:47][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:58:58][MAIN] : INFO : Temperatrue has changed! : 73.17
+[05/12/2022, 16:59:07][MQTT] : INFO : Received: measure/ds b''
+[05/12/2022, 16:59:07][MQTT] : ERROR : Failed to process callback! : measure_ds() takes 0 positional arguments but 1 was given
+[05/12/2022, 16:59:08][MAIN] : INFO : Temperatrue has changed! : 72.95
+[05/12/2022, 16:59:14][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:59:14][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:59:26 ] ========
+[05/12/2022, 16:59:26][MAIN] : INFO : Logger started!
+[05/12/2022, 16:59:26][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:59:26][DS] : INFO : Logger linked!
+[05/12/2022, 16:59:26][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:59:26][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:59:27][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:59:27][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:59:27][MQTT] : INFO : Callback recorded: measure/ds
+[05/12/2022, 16:59:27][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:59:27][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:59:27][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/12/2022, 16:59:27][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:59:27][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:59:27][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:59:27][MAIN] : INFO : Power status changed
+[05/12/2022, 16:59:27][MAIN] : WARN :Power has been lost!
+[05/12/2022, 16:59:30][MQTT] : INFO : Received: measure/ds b''
+[05/12/2022, 16:59:30][DS] : INFO : Filling
+[05/12/2022, 16:59:38][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 16:59:42][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 16:59:42][MQTT] : ERROR : Failed to process callback! : Please set pin numbering mode using GPIO.setmode(GPIO.BOARD) or GPIO.setmode(GPIO.BCM)
+[05/12/2022, 16:59:42][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/12/2022, 16:59:51 ] ========
+[05/12/2022, 16:59:51][MAIN] : INFO : Logger started!
+[05/12/2022, 16:59:51][MQTT] : INFO : Logger linked!
+[05/12/2022, 16:59:51][DS] : INFO : Logger linked!
+[05/12/2022, 16:59:51][TEMP] : INFO : Logger linked!
+[05/12/2022, 16:59:51][MQTT] : INFO : Waiting for Connection...
+[05/12/2022, 16:59:52][MQTT] : INFO : Callback recorded: light
+[05/12/2022, 16:59:52][MQTT] : INFO : Callback recorded: Air
+[05/12/2022, 16:59:52][MQTT] : INFO : Callback recorded: measure/ds
+[05/12/2022, 16:59:52][MAIN] : NOTICE :System Started!
+[05/12/2022, 16:59:52][MQTT] : INFO : Connection Established!
+[05/12/2022, 16:59:52][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/12/2022, 16:59:52][MAIN] : WARN :Temp returned invalid value!
+[05/12/2022, 16:59:52][MAIN] : INFO : Water level has changed
+[05/12/2022, 16:59:52][MAIN] : WARN :Water level is low!
+[05/12/2022, 16:59:52][MAIN] : INFO : Power status changed
+[05/12/2022, 16:59:52][MAIN] : WARN :Power has been lost!
+[05/12/2022, 17:00:03][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/12/2022, 17:00:08][MAIN] : NOTICE :Received kill signal
+[05/12/2022, 17:00:08][DS] : NOTICE :Cleaning up...

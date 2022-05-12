@@ -23,6 +23,7 @@ except:
         print("[TEMP] : WARN: No logger initialized! Error will be lost!")
 #    print("[TEMP] : Temp Failure: Unable to find device!")
 #    exit(1)
+
 def read_temp_raw():
     global logger
     try:

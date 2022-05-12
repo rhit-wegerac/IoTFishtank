@@ -32,14 +32,21 @@ def log_info(caller,text):
     global logfile
     time = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
     os.system("tput setaf 12")
-    open(logfile,"a").write("["+str(time)+"]["+caller+"] : NOTE: "+text+"\n")
-    print("["+caller+"] : "+text)
+    open(logfile,"a").write("["+str(time)+"]["+caller+"] : INFO : "+text+"\n")
+    print("["+caller+"] : INFO : "+text)
     os.system("tput setaf 7")
 # Log a warning
 def log_warn(caller,text):
     global logfile
     time = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
     os.system("tput setaf 11")
-    open(logfile,"a").write("["+str(time)+"]["+caller+"] : WARN:"+text+"\n")
-    print("["+caller+"] : WARN: "+text)
+    open(logfile,"a").write("["+str(time)+"]["+caller+"] : WARN :"+text+"\n")
+    print("["+caller+"] : WARN : "+text)
+    os.system("tput setaf 7")
+def log_special(caller,text):
+    global logfile
+    time = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+    os.system("tput setaf 2")
+    open(logfile,"a").write("["+str(time)+"]["+caller+"] : NOTICE :"+text+"\n")
+    print("["+caller+"] : NOTICE : "+text)
     os.system("tput setaf 7")
