@@ -1,6 +1,6 @@
-#!/usr/bin/python 
+#!/usr/bin/python3 
 
-import paho.mqtt.client as paho 
+import paho.mqtt.client as mqtt 
 
   
 
@@ -14,7 +14,7 @@ def on_publish(client, userdata, mid):
 def on_message(client, userdata, msg):
     print(msg.topic+" "+str(msg.payload))
 
-client = paho.Client() 
+client = mqtt.Client() 
 
 client.on_publish = on_publish 
 

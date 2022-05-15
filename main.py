@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 print("[MAIN] : System Starting...")
 import logger
 import os
@@ -106,15 +108,20 @@ try:
             else:
                    logger.log_info(MY_NAME,"Water level is good!")
                    mqtt.publish("waterlevel","good")
+                   
         power_stat = GPIO.input(powerpin)
+        
         if(power_stat!=last_stat):
             last_stat=power_stat
-            mqtt.publish("power",power_stat)
             logger.log_info(MY_NAME,"Power status changed")
             if(not power_stat):
+                mqtt.publish("power", False)
                 logger.log_warn(MY_NAME,"Power has been lost!")
             else:
                 logger.log_info(MY_NAME,"Power has been restored!")
+                mqtt.publish("power", True)
+        
+        mqtt.publish("air", "test")
         time.sleep(10)
 
 finally:
