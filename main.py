@@ -121,7 +121,7 @@ try:
                 logger.log_info(MY_NAME,"Power has been restored!")
                 mqtt.publish("power", True)
         
-        mqtt.publish("air", "test")
+     
         time.sleep(10)
 
 finally:
