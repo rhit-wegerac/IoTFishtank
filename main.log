@@ -340,6 +340,7 @@
 [05/12/2022, 17:00:03][MAIN] : INFO : Temperatrue has changed! : 73.06
 [05/12/2022, 17:00:08][MAIN] : NOTICE :Received kill signal
 [05/12/2022, 17:00:08][DS] : NOTICE :Cleaning up...
+<<<<<<< HEAD
 ======== [ RESTART: 05/12/2022, 21:47:24 ] ========
 [05/12/2022, 21:47:24][MAIN] : INFO : Logger started!
 [05/12/2022, 21:47:24][MQTT] : INFO : Logger linked!
@@ -1442,3 +1443,617 @@
 [05/17/2022, 10:03:12][MAIN/update_air] : INFO : Setting air to false
 [05/17/2022, 10:03:14][MAIN] : NOTICE :Received kill signal
 [05/17/2022, 10:03:14][DS] : NOTICE :Cleaning up...
+=======
+======== [ RESTART: 05/14/2022, 15:23:30 ] ========
+[05/14/2022, 15:23:30][MAIN] : INFO : Logger started!
+[05/14/2022, 15:23:30][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:23:30][DS] : INFO : Logger linked!
+[05/14/2022, 15:23:30][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:23:30][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:23:30][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:23:30][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:23:30][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:23:30][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:23:30][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:23:30][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:23:31][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:23:31][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:23:31][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:23:31][MAIN] : INFO : Power status changed
+[05/14/2022, 15:23:31][MAIN] : WARN :Power has been lost!
+[05/14/2022, 15:23:41][MAIN] : INFO : Temperatrue has changed! : 77.22
+[05/14/2022, 15:24:03][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:24:03][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:24:25][MAIN] : INFO : Temperatrue has changed! : 77.34
+[05/14/2022, 15:24:36][MAIN] : INFO : Temperatrue has changed! : 77.22
+[05/14/2022, 15:24:47][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:24:47][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:24:58][MAIN] : INFO : Temperatrue has changed! : 81.39
+[05/14/2022, 15:24:58][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:24:58][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:25:09][MAIN] : INFO : Temperatrue has changed! : 84.88
+[05/14/2022, 15:25:09][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:25:09][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:25:20][MAIN] : INFO : Temperatrue has changed! : 84.76
+[05/14/2022, 15:25:20][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:25:20][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:25:31][MAIN] : INFO : Temperatrue has changed! : 84.2
+[05/14/2022, 15:25:31][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:25:31][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:25:42][MAIN] : INFO : Temperatrue has changed! : 83.75
+======== [ RESTART: 05/14/2022, 15:27:55 ] ========
+[05/14/2022, 15:27:55][MAIN] : INFO : Logger started!
+[05/14/2022, 15:27:55][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:27:55][DS] : INFO : Logger linked!
+[05/14/2022, 15:27:55][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:27:55][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:27:56][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:27:56][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:27:56][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:27:56][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:27:56][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:27:56][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:27:56][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:27:56][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:27:56][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:28:07][MAIN] : INFO : Temperatrue has changed! : 80.26
+[05/14/2022, 15:28:18][MAIN] : INFO : Temperatrue has changed! : 82.29
+[05/14/2022, 15:28:29][MAIN] : INFO : Temperatrue has changed! : 82.06
+[05/14/2022, 15:28:29][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:28:29][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:28:40][MAIN] : INFO : Temperatrue has changed! : 81.72
+======== [ RESTART: 05/14/2022, 15:28:54 ] ========
+[05/14/2022, 15:28:54][MAIN] : INFO : Logger started!
+[05/14/2022, 15:28:54][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:28:54][DS] : INFO : Logger linked!
+[05/14/2022, 15:28:54][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:28:54][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:28:55][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:28:55][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:28:55][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:28:55][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:28:55][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:28:55][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:28:55][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:28:55][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:28:55][MAIN] : WARN :Water level is low!
+======== [ RESTART: 05/14/2022, 15:29:26 ] ========
+[05/14/2022, 15:29:26][MAIN] : INFO : Logger started!
+[05/14/2022, 15:29:26][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:29:26][DS] : INFO : Logger linked!
+[05/14/2022, 15:29:26][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:29:26][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:29:27][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:29:27][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:29:27][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:29:27][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:29:27][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:29:27][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:29:27][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:29:38][MAIN] : INFO : Temperatrue has changed! : 80.38
+[05/14/2022, 15:29:38][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:29:38][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:29:49][MAIN] : INFO : Temperatrue has changed! : 85.66
+[05/14/2022, 15:29:49][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:29:49][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:30:00][MAIN] : INFO : Temperatrue has changed! : 86.79
+[05/14/2022, 15:30:11][MAIN] : INFO : Temperatrue has changed! : 89.15
+[05/14/2022, 15:30:22][MAIN] : INFO : Temperatrue has changed! : 90.05
+[05/14/2022, 15:30:22][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:30:22][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:30:33][MAIN] : INFO : Temperatrue has changed! : 90.16
+[05/14/2022, 15:30:33][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:30:33][MAIN] : INFO : Water level is good!
+======== [ RESTART: 05/14/2022, 15:33:17 ] ========
+[05/14/2022, 15:33:17][MAIN] : INFO : Logger started!
+[05/14/2022, 15:33:17][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:33:17][DS] : INFO : Logger linked!
+[05/14/2022, 15:33:17][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:33:17][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:33:18][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:33:18][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:33:18][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:33:18][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:33:18][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:33:18][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:33:18][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:33:18][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:33:18][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:33:29][MAIN] : INFO : Temperatrue has changed! : 83.41
+[05/14/2022, 15:33:29][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:33:29][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:33:40][MAIN] : INFO : Temperatrue has changed! : 82.96
+[05/14/2022, 15:33:46][MQTT] : INFO : Received: light b'red'
+[05/14/2022, 15:33:46][MQTT] : ERROR : Failed to process callback! : NeoPixel support requires running with sudo, please try again!
+[05/14/2022, 15:33:51][MAIN] : INFO : Temperatrue has changed! : 82.74
+======== [ RESTART: 05/14/2022, 15:34:09 ] ========
+[05/14/2022, 15:34:09][MAIN] : INFO : Logger started!
+[05/14/2022, 15:34:09][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:34:09][DS] : INFO : Logger linked!
+[05/14/2022, 15:34:09][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:34:09][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:34:10][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:34:10][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:34:10][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:34:10][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:34:10][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:34:10][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:34:10][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:34:21][MAIN] : INFO : Temperatrue has changed! : 81.95
+[05/14/2022, 15:34:32][MAIN] : INFO : Temperatrue has changed! : 84.76
+[05/14/2022, 15:34:37][MQTT] : INFO : Received: light b'red'
+[05/14/2022, 15:34:42][MQTT] : INFO : Received: light b'green'
+[05/14/2022, 15:34:43][MAIN] : INFO : Temperatrue has changed! : 86.11
+[05/14/2022, 15:34:47][MQTT] : INFO : Received: light b'white'
+[05/14/2022, 15:34:54][MAIN] : INFO : Temperatrue has changed! : 85.66
+[05/14/2022, 15:34:57][MQTT] : INFO : Received: light b'off'
+[05/14/2022, 15:35:05][MAIN] : INFO : Temperatrue has changed! : 84.99
+[05/14/2022, 15:35:16][MAIN] : INFO : Temperatrue has changed! : 84.54
+[05/14/2022, 15:35:24][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 15:35:24][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 15:38:59 ] ========
+[05/14/2022, 15:38:59][MAIN] : INFO : Logger started!
+[05/14/2022, 15:38:59][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:38:59][DS] : INFO : Logger linked!
+[05/14/2022, 15:38:59][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:38:59][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:38:59][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:38:59][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:38:59][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:38:59][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:38:59][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:38:59][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:38:59][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:38:59][MAIN] : INFO : Power status changed
+[05/14/2022, 15:38:59][MAIN] : WARN :Power has been lost!
+[05/14/2022, 15:39:10][MAIN] : INFO : Temperatrue has changed! : 79.47
+[05/14/2022, 15:39:21][MAIN] : INFO : Temperatrue has changed! : 79.36
+[05/14/2022, 15:39:32][MAIN] : INFO : Temperatrue has changed! : 79.25
+[05/14/2022, 15:39:32][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:39:32][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:39:43][MAIN] : INFO : Temperatrue has changed! : 79.14
+[05/14/2022, 15:39:43][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:39:43][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:39:54][MAIN] : INFO : Temperatrue has changed! : 79.03
+[05/14/2022, 15:39:54][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:39:54][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:40:05][MAIN] : INFO : Temperatrue has changed! : 78.91
+[05/14/2022, 15:40:05][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:40:05][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:40:16][MAIN] : INFO : Temperatrue has changed! : 78.8
+[05/14/2022, 15:40:16][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:40:16][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:40:38][MAIN] : INFO : Temperatrue has changed! : 78.69
+[05/14/2022, 15:40:39][MQTT] : INFO : Received: light b'blue'
+[05/14/2022, 15:40:47][MQTT] : INFO : Received: light b'off'
+[05/14/2022, 15:40:49][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:40:49][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:41:00][MAIN] : INFO : Temperatrue has changed! : 78.58
+[05/14/2022, 15:41:00][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:41:00][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:41:11][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:41:11][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:41:22][MAIN] : INFO : Temperatrue has changed! : 78.46
+[05/14/2022, 15:41:22][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:41:22][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:41:33][MAIN] : INFO : Temperatrue has changed! : 78.35
+[05/14/2022, 15:41:33][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:41:33][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:41:48][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 15:41:48][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 15:41:51 ] ========
+[05/14/2022, 15:41:51][MAIN] : INFO : Logger started!
+[05/14/2022, 15:41:51][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:41:51][DS] : INFO : Logger linked!
+[05/14/2022, 15:41:51][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:41:51][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:41:52][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:41:52][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:41:52][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:41:52][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:41:52][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:41:52][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:41:52][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:41:52][MAIN] : INFO : Power status changed
+[05/14/2022, 15:41:52][MAIN] : WARN :Power has been lost!
+[05/14/2022, 15:42:03][MAIN] : INFO : Temperatrue has changed! : 78.24
+[05/14/2022, 15:42:03][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:42:03][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:42:14][MAIN] : INFO : Temperatrue has changed! : 78.12
+[05/14/2022, 15:42:25][MAIN] : INFO : Temperatrue has changed! : 78.24
+[05/14/2022, 15:42:25][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:42:25][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:42:36][MAIN] : INFO : Temperatrue has changed! : 78.12
+[05/14/2022, 15:42:36][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:42:36][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:42:47][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:42:47][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:42:58][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:42:58][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:43:08][MAIN] : INFO : Temperatrue has changed! : 78.01
+[05/14/2022, 15:43:19][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:43:19][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:43:30][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:43:30][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:43:52][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:43:52][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:44:03][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 15:44:08][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 15:44:08][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 15:53:12 ] ========
+[05/14/2022, 15:53:12][MAIN] : INFO : Logger started!
+[05/14/2022, 15:53:12][MQTT] : INFO : Logger linked!
+[05/14/2022, 15:53:12][DS] : INFO : Logger linked!
+[05/14/2022, 15:53:12][TEMP] : INFO : Logger linked!
+[05/14/2022, 15:53:12][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 15:53:12][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 15:53:12][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 15:53:12][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 15:53:12][MAIN] : NOTICE :System Started!
+[05/14/2022, 15:53:12][MQTT] : INFO : Connection Established!
+[05/14/2022, 15:53:12][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 15:53:12][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 15:53:12][MAIN] : INFO : Power status changed
+[05/14/2022, 15:53:13][MAIN] : WARN :Power has been lost!
+[05/14/2022, 15:53:23][MAIN] : INFO : Temperatrue has changed! : 77.22
+[05/14/2022, 15:53:56][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:53:56][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:54:07][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:54:07][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:54:18][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:54:18][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:54:51][MAIN] : INFO : Temperatrue has changed! : 77.11
+[05/14/2022, 15:54:51][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:54:51][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:54:51][MAIN] : INFO : Power status changed
+[05/14/2022, 15:54:51][MAIN] : INFO : Power has been restored!
+[05/14/2022, 15:55:02][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:55:02][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:55:02][MAIN] : INFO : Power status changed
+[05/14/2022, 15:55:02][MAIN] : WARN :Power has been lost!
+[05/14/2022, 15:55:13][MAIN] : INFO : Temperatrue has changed! : 77.0
+[05/14/2022, 15:55:24][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:55:24][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:55:56][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:55:56][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:56:07][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:56:07][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:56:18][MAIN] : INFO : Temperatrue has changed! : 76.89
+[05/14/2022, 15:56:29][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:56:29][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:56:40][MAIN] : INFO : Temperatrue has changed! : 77.0
+[05/14/2022, 15:56:51][MAIN] : INFO : Temperatrue has changed! : 76.89
+[05/14/2022, 15:56:51][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:56:51][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:57:02][MAIN] : INFO : Temperatrue has changed! : 76.78
+[05/14/2022, 15:57:02][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:57:02][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:57:24][MAIN] : INFO : Temperatrue has changed! : 76.66
+[05/14/2022, 15:57:24][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:57:24][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:57:35][MAIN] : INFO : Temperatrue has changed! : 76.78
+[05/14/2022, 15:57:46][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:57:46][MAIN] : WARN :Water level is low!
+[05/14/2022, 15:57:56][MAIN] : INFO : Water level has changed
+[05/14/2022, 15:57:56][MAIN] : INFO : Water level is good!
+[05/14/2022, 15:58:02][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 15:58:03][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 16:00:01 ] ========
+[05/14/2022, 16:00:01][MAIN] : INFO : Logger started!
+[05/14/2022, 16:00:01][MQTT] : INFO : Logger linked!
+[05/14/2022, 16:00:01][DS] : INFO : Logger linked!
+[05/14/2022, 16:00:01][TEMP] : INFO : Logger linked!
+[05/14/2022, 16:00:01][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 16:00:02][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 16:00:02][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 16:00:02][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 16:00:02][MAIN] : NOTICE :System Started!
+[05/14/2022, 16:00:02][MQTT] : INFO : Connection Established!
+[05/14/2022, 16:00:02][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 16:00:02][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 16:00:02][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:00:02][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:00:02][MAIN] : INFO : Power status changed
+[05/14/2022, 16:00:02][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:00:13][MAIN] : INFO : Temperatrue has changed! : 76.78
+[05/14/2022, 16:00:24][MAIN] : INFO : Temperatrue has changed! : 77.0
+[05/14/2022, 16:00:24][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:00:24][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:00:24][MAIN] : INFO : Power status changed
+[05/14/2022, 16:00:24][MAIN] : INFO : Power has been restored!
+[05/14/2022, 16:00:35][MAIN] : INFO : Temperatrue has changed! : 78.46
+[05/14/2022, 16:00:35][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:00:35][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:00:35][MAIN] : INFO : Power status changed
+[05/14/2022, 16:00:35][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:00:56][MAIN] : INFO : Temperatrue has changed! : 78.58
+[05/14/2022, 16:01:07][MAIN] : INFO : Temperatrue has changed! : 78.46
+[05/14/2022, 16:01:07][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:01:07][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:01:18][MAIN] : INFO : Temperatrue has changed! : 78.35
+[05/14/2022, 16:01:29][MAIN] : INFO : Temperatrue has changed! : 78.24
+[05/14/2022, 16:01:29][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:01:29][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:01:40][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:01:40][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:01:51][MAIN] : INFO : Temperatrue has changed! : 78.35
+[05/14/2022, 16:01:51][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:01:51][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:01:57][MQTT] : INFO : Received: light b'green'
+[05/14/2022, 16:02:02][MAIN] : INFO : Temperatrue has changed! : 78.24
+[05/14/2022, 16:02:02][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:02:02][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:02:03][MQTT] : INFO : Received: light b'off'
+[05/14/2022, 16:02:24][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:02:24][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:02:46][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:02:46][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:02:57][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:02:57][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:03:08][MAIN] : INFO : Temperatrue has changed! : 78.12
+[05/14/2022, 16:03:08][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:03:08][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:03:19][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:03:19][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:03:30][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:03:30][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:03:41][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:03:41][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:03:52][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:03:52][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:04:13][MAIN] : INFO : Temperatrue has changed! : 78.01
+[05/14/2022, 16:04:24][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:04:24][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:05:17][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 16:05:17][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 16:05:24 ] ========
+[05/14/2022, 16:05:24][MAIN] : INFO : Logger started!
+[05/14/2022, 16:05:24][MQTT] : INFO : Logger linked!
+[05/14/2022, 16:05:24][DS] : INFO : Logger linked!
+[05/14/2022, 16:05:25][TEMP] : INFO : Logger linked!
+[05/14/2022, 16:05:25][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 16:05:26][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 16:05:26][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 16:05:26][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 16:05:26][MAIN] : NOTICE :System Started!
+[05/14/2022, 16:05:26][MQTT] : INFO : Connection Established!
+[05/14/2022, 16:05:26][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 16:05:26][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 16:05:26][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:05:26][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:05:26][MAIN] : INFO : Power status changed
+[05/14/2022, 16:05:26][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:05:37][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:05:58][MAIN] : INFO : Temperatrue has changed! : 78.01
+[05/14/2022, 16:05:58][MAIN] : INFO : Power status changed
+[05/14/2022, 16:05:58][MAIN] : INFO : Power has been restored!
+[05/14/2022, 16:06:20][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:06:42][MAIN] : INFO : Temperatrue has changed! : 78.01
+[05/14/2022, 16:06:42][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:06:42][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:06:53][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:07:15][MAIN] : INFO : Temperatrue has changed! : 78.01
+[05/14/2022, 16:07:26][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:07:34][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 16:07:34][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 16:07:57 ] ========
+[05/14/2022, 16:07:57][MAIN] : INFO : Logger started!
+[05/14/2022, 16:07:57][MQTT] : INFO : Logger linked!
+[05/14/2022, 16:07:57][DS] : INFO : Logger linked!
+[05/14/2022, 16:07:57][TEMP] : INFO : Logger linked!
+[05/14/2022, 16:07:57][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 16:07:59][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 16:07:59][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 16:07:59][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 16:07:59][MAIN] : NOTICE :System Started!
+[05/14/2022, 16:08:00][MQTT] : INFO : Connection Established!
+[05/14/2022, 16:08:00][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 16:08:00][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 16:08:10][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:08:32][MAIN] : INFO : Power status changed
+[05/14/2022, 16:08:32][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:08:43][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:08:43][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:09:56][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 16:09:56][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 16:11:09 ] ========
+[05/14/2022, 16:11:09][MAIN] : INFO : Logger started!
+[05/14/2022, 16:11:09][MQTT] : INFO : Logger linked!
+[05/14/2022, 16:11:09][DS] : INFO : Logger linked!
+[05/14/2022, 16:11:09][TEMP] : INFO : Logger linked!
+[05/14/2022, 16:11:09][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 16:11:10][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 16:11:10][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 16:11:10][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 16:11:10][MAIN] : NOTICE :System Started!
+[05/14/2022, 16:11:10][MQTT] : INFO : Connection Established!
+[05/14/2022, 16:11:10][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 16:11:10][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 16:11:10][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:11:10][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:11:10][MAIN] : INFO : Power status changed
+[05/14/2022, 16:11:10][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:11:21][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:11:45][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 16:11:45][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 16:12:17 ] ========
+[05/14/2022, 16:12:17][MAIN] : INFO : Logger started!
+[05/14/2022, 16:12:17][MQTT] : INFO : Logger linked!
+[05/14/2022, 16:12:17][DS] : INFO : Logger linked!
+[05/14/2022, 16:12:17][TEMP] : INFO : Logger linked!
+[05/14/2022, 16:12:17][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 16:12:18][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 16:12:18][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 16:12:18][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 16:12:18][MAIN] : NOTICE :System Started!
+[05/14/2022, 16:12:18][MQTT] : INFO : Connection Established!
+[05/14/2022, 16:12:18][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 16:12:18][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 16:12:18][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:12:18][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:12:18][MAIN] : INFO : Power status changed
+[05/14/2022, 16:12:18][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:12:29][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:12:29][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:12:29][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:12:29][MAIN] : INFO : Power status changed
+[05/14/2022, 16:12:29][MAIN] : INFO : Power has been restored!
+[05/14/2022, 16:12:40][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:12:51][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:13:23][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:13:34][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:13:45][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:13:56][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:14:07][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:14:10][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 16:14:10][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 16:27:05 ] ========
+[05/14/2022, 16:27:05][MAIN] : INFO : Logger started!
+[05/14/2022, 16:27:05][MQTT] : INFO : Logger linked!
+[05/14/2022, 16:27:05][DS] : INFO : Logger linked!
+[05/14/2022, 16:27:05][TEMP] : INFO : Logger linked!
+[05/14/2022, 16:27:05][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 16:27:06][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 16:27:06][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 16:27:06][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 16:27:06][MAIN] : NOTICE :System Started!
+[05/14/2022, 16:27:06][MQTT] : INFO : Connection Established!
+[05/14/2022, 16:27:06][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 16:27:06][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 16:27:17][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:27:28][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:27:39][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:28:01][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:28:33][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:28:39][MQTT] : INFO : Received: Air b'False'
+[05/14/2022, 16:28:55][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:29:56][MQTT] : INFO : Received: Air b'True'
+[05/14/2022, 16:29:56][MQTT] : INFO : Received: Air b'True'
+[05/14/2022, 16:30:00][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:30:11][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:30:55][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:31:06][MAIN] : INFO : Temperatrue has changed! : 77.45
+[05/14/2022, 16:31:16][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:31:25][MQTT] : INFO : Received: Air b'False'
+[05/14/2022, 16:31:58][MQTT] : INFO : Received: Air b'True'
+[05/14/2022, 16:31:59][MQTT] : INFO : Received: Air b'False'
+[05/14/2022, 16:32:44][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:32:54][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:32:55][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 16:32:55][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/14/2022, 16:33:54 ] ========
+[05/14/2022, 16:33:54][MAIN] : INFO : Logger started!
+[05/14/2022, 16:33:54][MQTT] : INFO : Logger linked!
+[05/14/2022, 16:33:54][DS] : INFO : Logger linked!
+[05/14/2022, 16:33:54][TEMP] : INFO : Logger linked!
+[05/14/2022, 16:33:55][MQTT] : INFO : Waiting for Connection...
+[05/14/2022, 16:33:56][MQTT] : INFO : Callback recorded: light
+[05/14/2022, 16:33:56][MQTT] : INFO : Callback recorded: Air
+[05/14/2022, 16:33:56][MQTT] : INFO : Callback recorded: measure/ds
+[05/14/2022, 16:33:56][MAIN] : NOTICE :System Started!
+[05/14/2022, 16:33:56][MQTT] : INFO : Connection Established!
+[05/14/2022, 16:33:56][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/14/2022, 16:33:56][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 16:34:07][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:34:18][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:34:28][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:35:23][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:35:34][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:36:50][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:37:01][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:37:12][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:37:44][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:37:55][MAIN] : INFO : Temperatrue has changed! : 77.56
+[05/14/2022, 16:38:06][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:39:11][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:40:06][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:40:17][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:45:43][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:45:54][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:45:55][MQTT] : INFO : Received: light b'green'
+[05/14/2022, 16:46:01][MQTT] : INFO : Received: light b'off'
+[05/14/2022, 16:46:16][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:46:27][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:46:59][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:47:10][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:48:05][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:48:16][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:48:26][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/14/2022, 16:48:37][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:49:21][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:49:32][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:50:04][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:50:26][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:50:48][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:50:59][MAIN] : INFO : Power status changed
+[05/14/2022, 16:50:59][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:51:10][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:51:10][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:51:32][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:51:42][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:51:42][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:51:42][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:51:42][MAIN] : INFO : Power status changed
+[05/14/2022, 16:51:43][MAIN] : INFO : Power has been restored!
+[05/14/2022, 16:51:53][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:52:15][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:52:15][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:52:15][MAIN] : WARN :Water level is low!
+[05/14/2022, 16:52:15][MAIN] : INFO : Power status changed
+[05/14/2022, 16:52:15][MAIN] : WARN :Power has been lost!
+[05/14/2022, 16:52:37][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:52:37][MAIN] : INFO : Power status changed
+[05/14/2022, 16:52:37][MAIN] : INFO : Power has been restored!
+[05/14/2022, 16:52:48][MAIN] : INFO : Water level has changed
+[05/14/2022, 16:52:48][MAIN] : INFO : Water level is good!
+[05/14/2022, 16:52:59][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:53:21][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/14/2022, 16:54:37][MAIN] : INFO : Temperatrue has changed! : 77.67
+[05/14/2022, 16:54:48][MAIN] : INFO : Temperatrue has changed! : 81.95
+[05/14/2022, 16:54:59][MAIN] : INFO : Temperatrue has changed! : 86.45
+[05/14/2022, 16:55:10][MAIN] : INFO : Temperatrue has changed! : 86.0
+[05/14/2022, 16:55:20][MAIN] : INFO : Temperatrue has changed! : 85.44
+[05/14/2022, 16:55:31][MAIN] : INFO : Temperatrue has changed! : 84.99
+[05/14/2022, 16:55:42][MAIN] : INFO : Temperatrue has changed! : 84.65
+[05/14/2022, 16:55:53][MAIN] : INFO : Temperatrue has changed! : 84.31
+[05/14/2022, 16:56:04][MAIN] : INFO : Temperatrue has changed! : 83.97
+[05/14/2022, 16:56:15][MAIN] : INFO : Temperatrue has changed! : 83.75
+[05/14/2022, 16:56:26][MAIN] : INFO : Temperatrue has changed! : 83.41
+[05/14/2022, 16:56:37][MAIN] : INFO : Temperatrue has changed! : 83.19
+[05/14/2022, 16:56:47][MAIN] : INFO : Temperatrue has changed! : 82.96
+[05/14/2022, 16:56:58][MAIN] : INFO : Temperatrue has changed! : 82.62
+[05/14/2022, 16:57:09][MAIN] : INFO : Temperatrue has changed! : 82.4
+[05/14/2022, 16:57:20][MAIN] : INFO : Temperatrue has changed! : 82.17
+[05/14/2022, 16:57:31][MAIN] : INFO : Temperatrue has changed! : 81.95
+[05/14/2022, 16:57:42][MAIN] : INFO : Temperatrue has changed! : 81.84
+[05/14/2022, 16:57:53][MAIN] : INFO : Temperatrue has changed! : 81.61
+[05/14/2022, 16:58:04][MAIN] : INFO : Temperatrue has changed! : 81.39
+[05/14/2022, 16:58:14][MAIN] : INFO : Temperatrue has changed! : 81.16
+[05/14/2022, 16:58:25][MAIN] : INFO : Temperatrue has changed! : 81.05
+[05/14/2022, 16:58:36][MAIN] : INFO : Temperatrue has changed! : 80.83
+[05/14/2022, 16:58:58][MAIN] : INFO : Temperatrue has changed! : 80.6
+[05/14/2022, 16:59:09][MAIN] : INFO : Temperatrue has changed! : 80.38
+[05/14/2022, 16:59:20][MAIN] : INFO : Temperatrue has changed! : 80.26
+[05/14/2022, 16:59:31][MAIN] : INFO : Temperatrue has changed! : 80.15
+[05/14/2022, 16:59:42][MAIN] : INFO : Temperatrue has changed! : 80.04
+[05/14/2022, 17:00:03][MAIN] : INFO : Temperatrue has changed! : 79.92
+[05/14/2022, 17:00:08][MQTT] : INFO : Received: light b'off'
+[05/14/2022, 17:00:13][MQTT] : INFO : Received: light b'blue'
+[05/14/2022, 17:00:14][MAIN] : INFO : Temperatrue has changed! : 79.7
+[05/14/2022, 17:00:29][MQTT] : INFO : Received: light b'off'
+[05/14/2022, 17:00:36][MAIN] : INFO : Temperatrue has changed! : 79.59
+[05/14/2022, 17:00:47][MAIN] : INFO : Temperatrue has changed! : 79.47
+[05/14/2022, 17:00:58][MAIN] : INFO : Temperatrue has changed! : 79.36
+[05/14/2022, 17:01:00][MQTT] : INFO : Received: light b'white'
+[05/14/2022, 17:01:03][MQTT] : INFO : Received: light b'off'
+[05/14/2022, 17:01:09][MAIN] : INFO : Temperatrue has changed! : 79.25
+[05/14/2022, 17:01:30][MAIN] : INFO : Temperatrue has changed! : 79.14
+[05/14/2022, 17:01:41][MAIN] : INFO : Temperatrue has changed! : 79.03
+[05/14/2022, 17:01:52][MAIN] : INFO : Temperatrue has changed! : 78.91
+[05/14/2022, 17:02:03][MAIN] : INFO : Temperatrue has changed! : 78.8
+[05/14/2022, 17:02:14][MAIN] : INFO : Temperatrue has changed! : 78.91
+[05/14/2022, 17:02:25][MAIN] : INFO : Temperatrue has changed! : 78.8
+[05/14/2022, 17:02:35][MAIN] : WARN :Temp returned invalid value!
+[05/14/2022, 17:02:42][MAIN] : NOTICE :Received kill signal
+[05/14/2022, 17:02:42][DS] : NOTICE :Cleaning up...
+>>>>>>> 207aa90d379066155d10c02dddc921fec3653d1c
