@@ -120,14 +120,10 @@ try:
                 mqtt.publish("power", False)
                 logger.log_warn(MY_NAME,"Power has been lost!")
             else:
-<<<<<<< HEAD
                 logger.log_special(MY_NAME,"Power has been restored!")
-=======
-                logger.log_info(MY_NAME,"Power has been restored!")
                 mqtt.publish("power", True)
         
      
->>>>>>> 207aa90d379066155d10c02dddc921fec3653d1c
         time.sleep(10)
 
 finally:
