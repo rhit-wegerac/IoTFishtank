@@ -28,7 +28,7 @@ airpin = 19 # assign 19 to air
 # Setup GPIO
 GPIO.setup(powerpin,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(ledpin, GPIO.OUT) # set GPIO pin 4 as Output
-GPIO.setup(pushpin, GPIO.IN) # set GPIO pin 17 as Input
+GPIO.setup(pushpin, GPIO.IN,pull_up_down=GPIO.PUD_DOWN) # set GPIO pin 17 as Input
 GPIO.setup(airpin, GPIO.OUT) # set GPIO pin 17 as Input
 GPIO.setup(27, GPIO.OUT, initial=GPIO.LOW) # set the initial output of pin 4 to be LOW
 # Setup logger
@@ -54,8 +54,10 @@ last_temp = 0;
 mqtt.publish("Air","True")
 def update_air(air):
         if(air=="True" or air==True):
+            logger.log_info(MY_NAME+"/update_air","Setting air to true")
             GPIO.output(airpin,GPIO.HIGH)
         elif(air=="False" or air==True):
+            logger.log_info(MY_NAME+"/update_air","Setting air to false")
             GPIO.output(airpin,GPIO.LOW)
         else:
             logger.log_err(MY_NAME+"/update_air","Something went wrong...")
@@ -114,7 +116,7 @@ try:
             if(not power_stat):
                 logger.log_warn(MY_NAME,"Power has been lost!")
             else:
-                logger.log_info(MY_NAME,"Power has been restored!")
+                logger.log_special(MY_NAME,"Power has been restored!")
         time.sleep(10)
 
 finally:
