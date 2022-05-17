@@ -1,22 +1,15 @@
 from gpiozero import Servo
 from time import sleep
+import math
 
 servo = Servo(17)
 val = -1
 
-while True:
-    #servo.min()
-    #sleep(0.5)
-    #servo.mid()
-    #sleep(0.5)
-    #servo.max()
-    #sleep(0.5)
-#     servo.value = val
-#     sleep(0.1)
-#     val = val + 0.1
-#     if val > 1:
-#         val = -1
-    servo.min()
-    sleep(2)
-    servo.max()
-    sleep(2)
+x = [0, 20, 40, 80]
+values = [1, 0.56, 0.12, -0.32, -0.76]
+for num in values:
+	servo.value = num
+	print(num)
+	sleep(1)
+
+
