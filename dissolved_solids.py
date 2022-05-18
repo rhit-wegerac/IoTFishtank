@@ -29,6 +29,7 @@ def set_logger(l):
 	logger=l
 	l.log_info(MY_NAME,"Logger linked!")
 def measure():
+	gpio.setmode(gpio.BCM)
 	global logger
 #	print("[DS] : Filling")
 	logger.log_info(MY_NAME,"Filling")

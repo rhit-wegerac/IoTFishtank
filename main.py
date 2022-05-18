@@ -13,6 +13,7 @@ import glob
 import math
 import neopixel
 import board
+import camera
 GPIO.setwarnings(False)
 try:
     print("[MAIN] : Checking user permissions... ")
@@ -40,6 +41,7 @@ logger.log_info("MAIN","Logger started!")
 mqtt.set_logger(logger) # Set the logger
 ds.set_logger(logger)
 temp.set_logger(logger)
+camera.set_logger(logger)
 # Start MQTT
 mqtt.start_mqtt() # start mqtt connection
 # Start LED
@@ -54,6 +56,8 @@ last_level = True;
 last_temp = 0;
 ## 
 mqtt.publish("Air","True")
+CAMERA_LIMIT=6
+camera_counter=6
 def update_air(air):
         if(air=="True" or air==True):
             logger.log_info(MY_NAME+"/update_air","Setting air to true")
@@ -87,9 +91,15 @@ try:
     mqtt.register_callback("Air",update_air)
     mqtt.subscribe("measure/ds",True)
     mqtt.register_callback("measure/ds",measure_ds)
+    mqtt.subscribe("pic/take",True)
+    mqtt.register_callback("pic/take",camera.take_pic)
     logger.log_special(MY_NAME,"System Started!")
     while True:
-
+        camera_counter = camera_counter+1
+        if(camera_counter>=CAMERA_LIMIT):
+                logger.log_info(MY_NAME,"Picture triggered!")
+                camera.take_pic(0)
+                camera_counter=0
         GPIO.output(ledpin, not GPIO.input(pushpin))
         try:
             temp_c,temp_f = temp.read_temp()
