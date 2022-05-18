@@ -58,6 +58,7 @@ last_temp = 0;
 mqtt.publish("Air","True")
 CAMERA_LIMIT=6
 camera_counter=6
+alive=1
 def update_air(air):
         if(air=="True" or air==True):
             logger.log_info(MY_NAME+"/update_air","Setting air to true")
@@ -71,6 +72,7 @@ def update_led(light):
         if(light == "off"):
                 leds.fill((0,0,0))
         elif(light == "white"):
+#                leds[0]=(255,255,255)
                 leds.fill((255,255,255))
         elif(light == "green"):
                 leds.fill((0,255,0))
@@ -84,6 +86,9 @@ def update_led(light):
 def measure_ds(dummy):
        res=ds.measure()
        mqtt.publish("ds",res)
+def resetter(dummy):
+       global alive
+       alive=0;
 try:
     mqtt.subscribe("light",1)
     mqtt.register_callback("light",update_led)
@@ -93,8 +98,10 @@ try:
     mqtt.register_callback("measure/ds",measure_ds)
     mqtt.subscribe("pic/take",True)
     mqtt.register_callback("pic/take",camera.take_pic)
+    mqtt.subscribe("reset",True)
+    mqtt.register_callback("reset",resetter)
     logger.log_special(MY_NAME,"System Started!")
-    while True:
+    while alive:
         camera_counter = camera_counter+1
         if(camera_counter>=CAMERA_LIMIT):
                 logger.log_info(MY_NAME,"Picture triggered!")

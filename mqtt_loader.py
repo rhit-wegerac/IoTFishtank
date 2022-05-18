@@ -32,6 +32,7 @@ def on_message(client, userdata, msg):
     try:
         if(msg.topic in callback_functs):
             callback_functs[msg.topic](msg.payload.decode()) # Call the callback function with payload
+            logger.log_info(MY_NAME,"Returned from Callback")
         else:
 #            print("[MQTT] Note: Received message for unregistered callback")
              logger.log_warn(MY_NAME,"Received Message for unregistered callback")

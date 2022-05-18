@@ -20,7 +20,7 @@ def take_pic(dummy):
 	files = {'fileimage': open('tank.jpg', 'rb')}
 	response=requests.post(url, files=files,auth = HTTPBasicAuth('iot', 'fishtank'))
 	logger.log_info(MY_NAME,"Uploaded with response: "+str(response))
-
+	return
 
 
 
