@@ -2,7 +2,7 @@ import os
 import time
 import RPi.GPIO as gpio
 detection=18
-pump=21
+pump=20
 gpio.setwarnings(False)
 gpio.setmode(gpio.BCM)
 gpio.setup(pump,gpio.OUT)
