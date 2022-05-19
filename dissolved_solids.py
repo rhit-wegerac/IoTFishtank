@@ -32,10 +32,10 @@ def measure():
 	gpio.setmode(gpio.BCM)
 	global logger
 #	print("[DS] : Filling")
-	logger.log_info(MY_NAME,"Filling")
-	while (gpio.input(detection)==0):
-		gpio.output(pump,gpio.LOW)
-	gpio.output(pump,gpio.HIGH)
+#	logger.log_info(MY_NAME,"Filling")
+#	while (gpio.input(detection)==0):
+#		gpio.output(pump,gpio.LOW)
+#	gpio.output(pump,gpio.HIGH)
 	out=mcp.read_adc(0)
 	logger.log_info(MY_NAME,"Measure: "+str(out))
 #	print("[DS] : Measure: "+str(out))

@@ -5192,3 +5192,1605 @@
 [05/18/2022, 17:42:17][CAM] : INFO : Uploaded with response: <Response [200]>
 [05/18/2022, 17:42:18][MAIN] : INFO : Temperatrue has changed! : 73.4
 [05/18/2022, 17:43:01][MAIN] : INFO : Temperatrue has changed! : 73.51
+======== [ RESTART: 05/18/2022, 17:45:09 ] ========
+[05/18/2022, 17:45:09][MAIN] : INFO : Logger started!
+[05/18/2022, 17:45:09][MQTT] : INFO : Logger linked!
+[05/18/2022, 17:45:09][DS] : INFO : Logger linked!
+[05/18/2022, 17:45:09][TEMP] : INFO : Logger linked!
+[05/18/2022, 17:45:09][CAM] : INFO : logger linked!
+[05/18/2022, 17:45:09][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 17:45:10][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 17:45:10][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 17:45:10][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 17:45:10][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 17:45:10][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 17:45:10][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 17:45:10][MAIN] : NOTICE :System Started!
+[05/18/2022, 17:45:10][MAIN] : INFO : Picture triggered!
+[05/18/2022, 17:45:10][MQTT] : INFO : Connection Established!
+[05/18/2022, 17:45:10][CAM] : INFO : Taking picture...
+[05/18/2022, 17:45:16][CAM] : INFO : Uploading picture...
+[05/18/2022, 17:45:17][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 17:45:18][MAIN] : INFO : Temperatrue has changed! : 73.62
+[05/18/2022, 17:45:18][MAIN] : INFO : Water level has changed
+[05/18/2022, 17:45:18][MAIN] : WARN :Water level is low!
+[05/18/2022, 17:45:18][MAIN] : INFO : Power status changed
+[05/18/2022, 17:45:18][MAIN] : WARN :Power has been lost!
+[05/18/2022, 17:45:25][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 17:45:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 17:45:28][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 17:45:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 17:45:29][MAIN] : INFO : Temperatrue has changed! : 73.74
+[05/18/2022, 17:45:30][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 17:45:30][MQTT] : INFO : Returned from Callback
+[05/18/2022, 17:45:33][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 17:45:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 17:45:36][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 17:45:36][MQTT] : INFO : Returned from Callback
+[05/18/2022, 17:45:39][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 17:45:39][MQTT] : INFO : Returned from Callback
+[05/18/2022, 17:45:40][MAIN] : INFO : Temperatrue has changed! : 73.85
+[05/18/2022, 17:45:40][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 17:45:40][MQTT] : INFO : Returned from Callback
+[05/18/2022, 17:45:50][MAIN] : INFO : Temperatrue has changed! : 73.74
+[05/18/2022, 17:46:01][MAIN] : WARN :Temp returned invalid value!
+[05/18/2022, 17:46:02][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 17:46:02][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 18:27:34 ] ========
+[05/18/2022, 18:27:34][MAIN] : INFO : Logger started!
+[05/18/2022, 18:27:34][MQTT] : INFO : Logger linked!
+[05/18/2022, 18:27:34][DS] : INFO : Logger linked!
+[05/18/2022, 18:27:34][TEMP] : INFO : Logger linked!
+[05/18/2022, 18:27:34][CAM] : INFO : logger linked!
+[05/18/2022, 18:27:34][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 18:27:34][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 18:27:34][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 18:27:34][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 18:27:34][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 18:27:35][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 18:27:35][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 18:27:35][MQTT] : INFO : Connection Established!
+[05/18/2022, 18:27:35][MAIN] : NOTICE :System Started!
+[05/18/2022, 18:27:35][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:27:35][CAM] : INFO : Taking picture...
+[05/18/2022, 18:27:43][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:27:44][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:27:45][MAIN] : INFO : Temperatrue has changed! : 72.5
+[05/18/2022, 18:27:45][MAIN] : INFO : Water level has changed
+[05/18/2022, 18:27:45][MAIN] : WARN :Water level is low!
+[05/18/2022, 18:27:45][MAIN] : INFO : Power status changed
+[05/18/2022, 18:27:45][MAIN] : WARN :Power has been lost!
+[05/18/2022, 18:27:56][MAIN] : INFO : Temperatrue has changed! : 72.61
+[05/18/2022, 18:28:15][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 18:28:15][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 18:28:15][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:28:22][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 18:28:22][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 18:28:22][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:28:28][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 18:28:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:28:34][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 18:28:34][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 18:28:34][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:28:39][MAIN] : INFO : Temperatrue has changed! : 72.72
+[05/18/2022, 18:28:46][MQTT] : INFO : Received: pic/take b''
+[05/18/2022, 18:28:46][CAM] : INFO : Taking picture...
+[05/18/2022, 18:28:49][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:28:49][CAM] : INFO : Taking picture...
+[05/18/2022, 18:28:53][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:28:54][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:28:54][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:29:04][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 18:29:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:29:09][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 18:29:09][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 18:29:09][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:29:13][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 18:29:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:29:15][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 18:29:15][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:29:18][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 18:29:18][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:29:49][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 18:29:49][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 18:29:49][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:29:57][MQTT] : INFO : Received: reset b''
+[05/18/2022, 18:29:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 18:30:35][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:30:37][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:30:38][MAIN] : INFO : Temperatrue has changed! : 72.84
+[05/18/2022, 18:30:46][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 18:30:46][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 18:30:50 ] ========
+[05/18/2022, 18:30:50][MAIN] : INFO : Logger started!
+[05/18/2022, 18:30:50][MQTT] : INFO : Logger linked!
+[05/18/2022, 18:30:50][DS] : INFO : Logger linked!
+[05/18/2022, 18:30:50][TEMP] : INFO : Logger linked!
+[05/18/2022, 18:30:50][CAM] : INFO : logger linked!
+[05/18/2022, 18:30:50][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 18:30:51][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 18:30:51][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 18:30:51][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 18:30:51][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 18:30:51][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 18:30:51][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 18:30:51][MQTT] : INFO : Connection Established!
+[05/18/2022, 18:30:51][MAIN] : NOTICE :System Started!
+[05/18/2022, 18:30:51][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:30:51][CAM] : INFO : Taking picture...
+[05/18/2022, 18:30:58][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:30:59][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:30:59][MAIN] : INFO : Temperatrue has changed! : 72.84
+[05/18/2022, 18:30:59][MAIN] : INFO : Water level has changed
+[05/18/2022, 18:30:59][MAIN] : WARN :Water level is low!
+[05/18/2022, 18:31:00][MAIN] : INFO : Power status changed
+[05/18/2022, 18:31:00][MAIN] : WARN :Power has been lost!
+[05/18/2022, 18:31:10][MAIN] : INFO : Temperatrue has changed! : 72.95
+[05/18/2022, 18:31:21][MAIN] : INFO : Temperatrue has changed! : 73.06
+[05/18/2022, 18:31:43][MAIN] : INFO : Temperatrue has changed! : 73.29
+[05/18/2022, 18:32:04][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:32:04][CAM] : INFO : Taking picture...
+[05/18/2022, 18:32:11][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:32:12][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:32:34][MAIN] : INFO : Temperatrue has changed! : 73.62
+[05/18/2022, 18:32:45][MAIN] : INFO : Temperatrue has changed! : 73.51
+[05/18/2022, 18:32:56][MAIN] : INFO : Temperatrue has changed! : 73.62
+[05/18/2022, 18:33:17][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:33:17][CAM] : INFO : Taking picture...
+[05/18/2022, 18:33:24][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:33:25][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:33:37][MAIN] : INFO : Temperatrue has changed! : 73.74
+[05/18/2022, 18:33:48][MAIN] : INFO : Temperatrue has changed! : 73.85
+[05/18/2022, 18:34:20][MAIN] : INFO : Temperatrue has changed! : 73.96
+[05/18/2022, 18:34:30][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:34:30][CAM] : INFO : Taking picture...
+[05/18/2022, 18:34:37][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:34:39][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:34:40][MAIN] : INFO : Temperatrue has changed! : 74.08
+[05/18/2022, 18:34:51][MAIN] : INFO : Temperatrue has changed! : 74.19
+[05/18/2022, 18:35:23][MAIN] : INFO : Temperatrue has changed! : 74.3
+[05/18/2022, 18:35:44][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:35:44][CAM] : INFO : Taking picture...
+[05/18/2022, 18:35:51][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:35:52][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:35:53][MAIN] : INFO : Temperatrue has changed! : 74.41
+[05/18/2022, 18:36:04][MAIN] : INFO : Temperatrue has changed! : 74.53
+[05/18/2022, 18:36:25][MAIN] : INFO : Temperatrue has changed! : 74.64
+[05/18/2022, 18:36:36][MAIN] : INFO : Temperatrue has changed! : 74.75
+[05/18/2022, 18:36:57][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:36:57][CAM] : INFO : Taking picture...
+[05/18/2022, 18:37:04][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:37:08][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:37:09][MAIN] : INFO : Temperatrue has changed! : 74.86
+[05/18/2022, 18:37:41][MAIN] : INFO : Temperatrue has changed! : 74.97
+[05/18/2022, 18:37:52][MAIN] : INFO : Temperatrue has changed! : 75.09
+[05/18/2022, 18:38:03][MAIN] : INFO : Temperatrue has changed! : 75.2
+[05/18/2022, 18:38:13][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:38:13][CAM] : INFO : Taking picture...
+[05/18/2022, 18:38:20][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:38:21][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:38:21][MAIN] : INFO : Temperatrue has changed! : 75.09
+[05/18/2022, 18:38:32][MAIN] : INFO : Temperatrue has changed! : 75.2
+[05/18/2022, 18:38:43][MAIN] : INFO : Temperatrue has changed! : 75.31
+[05/18/2022, 18:38:54][MAIN] : INFO : Temperatrue has changed! : 75.42
+[05/18/2022, 18:39:05][MAIN] : INFO : Temperatrue has changed! : 75.31
+[05/18/2022, 18:39:16][MAIN] : INFO : Temperatrue has changed! : 75.42
+[05/18/2022, 18:39:26][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:39:26][CAM] : INFO : Taking picture...
+[05/18/2022, 18:39:33][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:39:33][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:39:45][MAIN] : INFO : Temperatrue has changed! : 75.54
+[05/18/2022, 18:40:18][MAIN] : INFO : Temperatrue has changed! : 75.65
+[05/18/2022, 18:40:39][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:40:39][CAM] : INFO : Taking picture...
+[05/18/2022, 18:40:46][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:40:46][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:40:47][MAIN] : INFO : Temperatrue has changed! : 75.76
+[05/18/2022, 18:41:09][MAIN] : INFO : Temperatrue has changed! : 75.88
+[05/18/2022, 18:41:41][MAIN] : INFO : Temperatrue has changed! : 75.99
+[05/18/2022, 18:41:51][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:41:51][CAM] : INFO : Taking picture...
+[05/18/2022, 18:41:58][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:41:59][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:42:00][MAIN] : INFO : Temperatrue has changed! : 75.88
+[05/18/2022, 18:42:11][MAIN] : INFO : Temperatrue has changed! : 75.99
+[05/18/2022, 18:42:22][MAIN] : INFO : Temperatrue has changed! : 76.1
+[05/18/2022, 18:42:33][MAIN] : INFO : Temperatrue has changed! : 75.99
+[05/18/2022, 18:42:43][MAIN] : INFO : Temperatrue has changed! : 76.1
+[05/18/2022, 18:43:04][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:43:04][CAM] : INFO : Taking picture...
+[05/18/2022, 18:43:11][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:43:12][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:43:24][MAIN] : INFO : Temperatrue has changed! : 76.21
+                                                                       ======== [ RESTART: 05/18/2022, 18:53:20 ] ========
+[05/18/2022, 18:53:20][MAIN] : INFO : Logger started!
+[05/18/2022, 18:53:20][MQTT] : INFO : Logger linked!
+[05/18/2022, 18:53:20][DS] : INFO : Logger linked!
+[05/18/2022, 18:53:20][TEMP] : INFO : Logger linked!
+[05/18/2022, 18:53:20][CAM] : INFO : logger linked!
+[05/18/2022, 18:53:20][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 18:53:20][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 18:53:20][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 18:53:20][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 18:53:20][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 18:53:20][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 18:53:20][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 18:53:20][MQTT] : INFO : Connection Established!
+[05/18/2022, 18:53:20][MAIN] : NOTICE :System Started!
+[05/18/2022, 18:53:20][MAIN] : INFO : Picture triggered!
+[05/18/2022, 18:53:20][CAM] : INFO : Taking picture...
+[05/18/2022, 18:53:29][CAM] : INFO : Uploading picture...
+[05/18/2022, 18:53:30][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 18:53:31][MAIN] : INFO : Temperatrue has changed! : 77.11
+[05/18/2022, 18:53:31][MAIN] : INFO : Water level has changed
+[05/18/2022, 18:53:31][MAIN] : WARN :Water level is low!
+[05/18/2022, 18:53:31][MAIN] : INFO : Power status changed
+[05/18/2022, 18:53:31][MAIN] : WARN :Power has been lost!
+[05/18/2022, 18:53:41][MAIN] : INFO : Temperatrue has changed! : 77.22
+======== [ RESTART: 05/18/2022, 20:17:48 ] ========
+[05/18/2022, 20:17:48][MAIN] : INFO : Logger started!
+[05/18/2022, 20:17:48][MQTT] : INFO : Logger linked!
+[05/18/2022, 20:17:48][DS] : INFO : Logger linked!
+[05/18/2022, 20:17:48][TEMP] : INFO : Logger linked!
+[05/18/2022, 20:17:48][CAM] : INFO : logger linked!
+[05/18/2022, 20:17:48][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 20:17:48][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 20:17:48][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 20:17:48][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 20:17:48][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 20:17:48][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 20:17:49][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 20:17:49][MAIN] : NOTICE :System Started!
+[05/18/2022, 20:17:49][MAIN] : INFO : Picture triggered!
+[05/18/2022, 20:17:49][CAM] : INFO : Taking picture...
+[05/18/2022, 20:17:49][MQTT] : INFO : Connection Established!
+[05/18/2022, 20:17:56][CAM] : INFO : Uploading picture...
+[05/18/2022, 20:17:57][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 20:17:57][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 20:17:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 20:17:58][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/18/2022, 20:17:58][MAIN] : INFO : Water level has changed
+[05/18/2022, 20:17:58][MAIN] : WARN :Water level is low!
+[05/18/2022, 20:18:09][MAIN] : INFO : Temperatrue has changed! : 77.9
+[05/18/2022, 20:18:30][MAIN] : INFO : Temperatrue has changed! : 77.79
+[05/18/2022, 20:18:41][MAIN] : INFO : Temperatrue has changed! : 77.9
+======== [ RESTART: 05/18/2022, 21:30:26 ] ========
+[05/18/2022, 21:30:26][MAIN] : INFO : Logger started!
+[05/18/2022, 21:30:26][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:30:26][DS] : INFO : Logger linked!
+[05/18/2022, 21:30:26][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:30:26][CAM] : INFO : logger linked!
+[05/18/2022, 21:30:27][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:30:27][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:30:27][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:30:27][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:30:27][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:30:27][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:30:27][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:30:27][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:30:27][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:30:27][CAM] : INFO : Taking picture...
+[05/18/2022, 21:30:27][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:30:28][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:30:30][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:30:31][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:30:31][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:30:31][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:30:31][MAIN] : INFO : Power status changed
+[05/18/2022, 21:30:31][MAIN] : WARN :Power has been lost!
+[05/18/2022, 21:30:31][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 21:30:31][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 21:33:10 ] ========
+[05/18/2022, 21:33:10][MAIN] : INFO : Logger started!
+[05/18/2022, 21:33:10][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:33:10][DS] : INFO : Logger linked!
+[05/18/2022, 21:33:10][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:33:10][CAM] : INFO : logger linked!
+[05/18/2022, 21:33:10][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:33:10][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:33:10][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:33:10][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:33:10][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:33:10][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:33:10][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:33:10][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:33:10][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:33:10][CAM] : INFO : Taking picture...
+[05/18/2022, 21:33:10][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:33:24][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:33:25][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:33:25][MAIN] : WARN :Temp returned invalid value!
+[05/18/2022, 21:33:25][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:33:25][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:33:25][MAIN] : INFO : Power status changed
+[05/18/2022, 21:33:25][MAIN] : WARN :Power has been lost!
+======== [ RESTART: 05/18/2022, 21:33:27 ] ========
+[05/18/2022, 21:33:27][MAIN] : INFO : Logger started!
+[05/18/2022, 21:33:27][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:33:27][DS] : INFO : Logger linked!
+[05/18/2022, 21:33:28][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:33:28][CAM] : INFO : logger linked!
+[05/18/2022, 21:33:28][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:33:28][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:33:28][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:33:28][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:33:28][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:33:28][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:33:28][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:33:28][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:33:28][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:33:28][CAM] : INFO : Taking picture...
+[05/18/2022, 21:33:28][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:33:43][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:33:44][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:33:44][MAIN] : WARN :Temp returned invalid value!
+[05/18/2022, 21:33:44][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:33:44][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:33:44][MAIN] : INFO : Power status changed
+[05/18/2022, 21:33:44][MAIN] : WARN :Power has been lost!
+[05/18/2022, 21:33:45][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 21:33:45][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 21:34:21 ] ========
+[05/18/2022, 21:34:21][MAIN] : INFO : Logger started!
+[05/18/2022, 21:34:21][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:34:21][DS] : INFO : Logger linked!
+[05/18/2022, 21:34:21][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:34:21][CAM] : INFO : logger linked!
+[05/18/2022, 21:34:21][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:34:22][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:34:22][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:34:22][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:34:22][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:34:22][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:34:22][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:34:22][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:34:22][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:34:22][CAM] : INFO : Taking picture...
+[05/18/2022, 21:34:22][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:34:29][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:34:29][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:34:30][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:34:30][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:34:30][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:34:30][MAIN] : INFO : Power status changed
+[05/18/2022, 21:34:30][MAIN] : WARN :Power has been lost!
+[05/18/2022, 21:34:52][MAIN] : INFO : Temperatrue has changed! : 73.51
+[05/18/2022, 21:34:52][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:34:52][MAIN] : INFO : Water level is good!
+[05/18/2022, 21:35:03][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:35:03][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:35:09][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:35:09][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:35:09][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:14][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:35:15][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:35:16][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:35:16][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:29][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:35:29][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:35:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:29][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:35:29][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:35:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:34][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:35:34][CAM] : INFO : Taking picture...
+[05/18/2022, 21:35:46][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:35:46][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:35:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:47][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:35:47][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:35:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:49][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:35:49][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:35:49][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:50][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:35:50][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:35:50][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:35:51][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:35:51][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:35:51][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:02][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:36:02][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:36:03][MAIN] : INFO : Temperatrue has changed! : 73.29
+[05/18/2022, 21:36:13][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:36:13][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:36:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:14][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:36:14][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:36:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:14][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:36:22][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:36:22][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:36:22][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:23][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:36:23][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:36:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:23][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:36:23][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:36:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:24][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:36:24][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:36:24][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:25][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:36:25][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:36:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:25][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:36:25][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:36:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:30][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 21:36:31][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:34][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:36:34][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:36][MAIN] : INFO : Temperatrue has changed! : 73.51
+[05/18/2022, 21:36:36][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:36:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:38][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:36:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:40][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 21:36:40][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:36:47][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:36:57][MAIN] : INFO : Temperatrue has changed! : 73.51
+[05/18/2022, 21:37:07][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:37:07][CAM] : INFO : Taking picture...
+[05/18/2022, 21:37:14][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:37:18][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:37:18][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:37:19][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 21:37:20][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:37:26][MQTT] : INFO : Received: pic/take b''
+[05/18/2022, 21:37:26][CAM] : INFO : Taking picture...
+[05/18/2022, 21:37:32][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:37:33][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:37:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:37:41][MQTT] : INFO : Received: reset b''
+[05/18/2022, 21:37:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:37:50][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 21:37:50][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 21:37:51 ] ========
+[05/18/2022, 21:37:51][MAIN] : INFO : Logger started!
+[05/18/2022, 21:37:51][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:37:51][DS] : INFO : Logger linked!
+[05/18/2022, 21:37:51][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:37:51][CAM] : INFO : logger linked!
+[05/18/2022, 21:37:51][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:37:52][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:37:52][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:37:52][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:37:52][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:37:52][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:37:52][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:37:52][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:37:52][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:37:52][CAM] : INFO : Taking picture...
+[05/18/2022, 21:37:52][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:37:57][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:37:57][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:37:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:37:58][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:37:58][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:37:58][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:37:58][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:37:58][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:37:59][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:37:59][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:37:59][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:37:59][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:37:59][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:37:59][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:37:59][MAIN] : INFO : Power status changed
+[05/18/2022, 21:37:59][MAIN] : WARN :Power has been lost!
+[05/18/2022, 21:38:00][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:38:00][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:38:00][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:38:10][MAIN] : INFO : Temperatrue has changed! : 73.51
+[05/18/2022, 21:38:21][MAIN] : INFO : Temperatrue has changed! : 73.4
+[05/18/2022, 21:38:32][MAIN] : INFO : Temperatrue has changed! : 73.51
+======== [ RESTART: 05/18/2022, 21:49:27 ] ========
+[05/18/2022, 21:49:27][MAIN] : INFO : Logger started!
+[05/18/2022, 21:49:27][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:49:27][DS] : INFO : Logger linked!
+[05/18/2022, 21:49:27][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:49:27][CAM] : INFO : logger linked!
+[05/18/2022, 21:49:27][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:49:27][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:49:27][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:49:27][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:49:27][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:49:28][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:49:28][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:49:28][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:49:28][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:49:28][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:49:28][CAM] : INFO : Taking picture...
+[05/18/2022, 21:49:35][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:49:36][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:49:36][MAIN] : INFO : Temperatrue has changed! : 77.34
+[05/18/2022, 21:49:37][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:49:37][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:49:37][MAIN] : INFO : Power status changed
+[05/18/2022, 21:49:37][MAIN] : WARN :Power has been lost!
+[05/18/2022, 21:49:37][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 21:49:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:49:41][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:49:41][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:49:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:49:43][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:49:43][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:49:43][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:49:46][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:49:46][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:49:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:49:47][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:49:47][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:49:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:49:47][MAIN] : INFO : Temperatrue has changed! : 77.45
+[05/18/2022, 21:49:47][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:49:47][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:49:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:49:53][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:49:54][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:49:56][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:49:56][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:00][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:00][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:01][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:01][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:01][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:01][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:03][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 21:50:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:05][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:05][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:21][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:21][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:23][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 21:50:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:25][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 21:50:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:27][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:35][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:50:35][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:50:35][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:36][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:41][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:50:41][CAM] : INFO : Taking picture...
+[05/18/2022, 21:50:43][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:50:43][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:50:43][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:44][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:44][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:47][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:47][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:47][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 21:50:47][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:50:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:48][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:50:49][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:49][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:49][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:50][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:50][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:50][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:50][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:50][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:50][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:50][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:50][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:50][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:50][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:51][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:51][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:51][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:51][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:51][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:52][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:52][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:52][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:52][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:52][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:52][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:52][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:50:53][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:54][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 21:50:54][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:56][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:50:56][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:50:56][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:50:58][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 21:50:58][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:10][MAIN] : INFO : Temperatrue has changed! : 77.34
+[05/18/2022, 21:51:32][MAIN] : INFO : Temperatrue has changed! : 77.45
+[05/18/2022, 21:51:38][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 21:51:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:39][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:51:39][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:51:39][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:41][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:51:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:44][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:44][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:45][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:45][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:45][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:45][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:45][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:45][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:45][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:45][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:45][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:46][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:46][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:46][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:46][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:46][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:49][MQTT] : INFO : Received: reset b''
+[05/18/2022, 21:51:49][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:51:53][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 21:51:53][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 21:51:54 ] ========
+[05/18/2022, 21:51:54][MAIN] : INFO : Logger started!
+[05/18/2022, 21:51:54][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:51:54][DS] : INFO : Logger linked!
+[05/18/2022, 21:51:54][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:51:54][CAM] : INFO : logger linked!
+[05/18/2022, 21:51:54][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:51:54][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:51:54][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:51:54][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:51:54][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:51:54][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:51:54][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:51:54][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:51:54][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:51:54][CAM] : INFO : Taking picture...
+[05/18/2022, 21:51:54][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:51:57][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:51:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:52:01][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:52:01][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:52:02][MAIN] : INFO : Temperatrue has changed! : 77.22
+[05/18/2022, 21:52:02][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:52:02][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:52:02][MAIN] : INFO : Power status changed
+[05/18/2022, 21:52:02][MAIN] : WARN :Power has been lost!
+[05/18/2022, 21:52:07][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:52:07][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:52:13][MAIN] : INFO : Temperatrue has changed! : 77.34
+[05/18/2022, 21:52:24][MAIN] : INFO : Temperatrue has changed! : 77.22
+[05/18/2022, 21:52:56][MAIN] : INFO : Temperatrue has changed! : 77.11
+[05/18/2022, 21:52:57][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:52:58][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:53:01][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:53:01][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:53:01][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:53:04][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:53:04][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:53:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:53:05][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:53:05][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:53:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:53:06][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:53:06][CAM] : INFO : Taking picture...
+[05/18/2022, 21:53:13][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:53:17][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:53:17][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:53:17][TEMP] : ERROR : Failed to read temp! : list index out of range
+[05/18/2022, 21:53:17][MAIN] : WARN :Temp returned invalid value!
+[05/18/2022, 21:53:17][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:53:18][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 21:53:18][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 21:53:19][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:53:21][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:53:21][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:53:28][MAIN] : INFO : Temperatrue has changed! : 77.0
+[05/18/2022, 21:53:50][MAIN] : INFO : Temperatrue has changed! : 76.89
+[05/18/2022, 21:53:50][MAIN] : INFO : Power status changed
+[05/18/2022, 21:53:50][MAIN] : NOTICE :Power has been restored!
+[05/18/2022, 21:54:01][MAIN] : INFO : Temperatrue has changed! : 76.78
+[05/18/2022, 21:54:15][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:54:15][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:19][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 21:54:19][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:21][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:54:21][CAM] : INFO : Taking picture...
+[05/18/2022, 21:54:22][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:22][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:23][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:24][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:24][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:24][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:25][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:26][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:26][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:26][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:26][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:27][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:27][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:28][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:28][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:54:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:28][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:28][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:54:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:29][MAIN] : INFO : Temperatrue has changed! : 76.66
+[05/18/2022, 21:54:29][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:30][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:30][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:31][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:31][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:31][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:31][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:32][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:33][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:33][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:34][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:34][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:34][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:35][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:35][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:35][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:36][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:36][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:36][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:37][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:38][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:39][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:39][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:39][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:39][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:40][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:40][MAIN] : INFO : Temperatrue has changed! : 76.55
+[05/18/2022, 21:54:40][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:41][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:41][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:41][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:41][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:41][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:42][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:42][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:55][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:56][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:56][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:56][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:56][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:56][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:57][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:54:57][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:54:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:13][MAIN] : INFO : Temperatrue has changed! : 76.44
+[05/18/2022, 21:55:13][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:13][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:14][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:14][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:14][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:15][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:22][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:22][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:22][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:22][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:24][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:24][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:25][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:26][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:26][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:33][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:55:33][CAM] : INFO : Taking picture...
+[05/18/2022, 21:55:35][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:35][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:36][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:36][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:36][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:36][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:36][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:37][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:55:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:40][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:55:40][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:40][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:40][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:40][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:55:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:41][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:41][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:41][MAIN] : INFO : Temperatrue has changed! : 76.21
+[05/18/2022, 21:55:41][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:42][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:42][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:42][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:42][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:55:42][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:55:43][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:56:03][MAIN] : INFO : Temperatrue has changed! : 76.1
+======== [ RESTART: 05/18/2022, 21:58:20 ] ========
+[05/18/2022, 21:58:20][MAIN] : INFO : Logger started!
+[05/18/2022, 21:58:20][MQTT] : INFO : Logger linked!
+[05/18/2022, 21:58:20][DS] : INFO : Logger linked!
+[05/18/2022, 21:58:20][TEMP] : INFO : Logger linked!
+[05/18/2022, 21:58:20][CAM] : INFO : logger linked!
+[05/18/2022, 21:58:20][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 21:58:20][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 21:58:20][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 21:58:20][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 21:58:20][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 21:58:20][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 21:58:21][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 21:58:21][MAIN] : NOTICE :System Started!
+[05/18/2022, 21:58:21][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:58:21][CAM] : INFO : Taking picture...
+[05/18/2022, 21:58:21][MQTT] : INFO : Connection Established!
+[05/18/2022, 21:58:24][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:24][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:25][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:25][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:26][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:26][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:27][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:27][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:58:27][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:27][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:58:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:28][MAIN] : INFO : Temperatrue has changed! : 75.54
+[05/18/2022, 21:58:28][MAIN] : INFO : Water level has changed
+[05/18/2022, 21:58:28][MAIN] : WARN :Water level is low!
+[05/18/2022, 21:58:29][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:32][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:33][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:34][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:34][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:38][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 21:58:38][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 21:58:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:40][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:40][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:41][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:42][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:42][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:43][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:43][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:44][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:58:44][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:58:50][MAIN] : INFO : Temperatrue has changed! : 75.42
+[05/18/2022, 21:59:22][MAIN] : INFO : Temperatrue has changed! : 75.31
+[05/18/2022, 21:59:32][MAIN] : INFO : Picture triggered!
+[05/18/2022, 21:59:32][CAM] : INFO : Taking picture...
+[05/18/2022, 21:59:39][CAM] : INFO : Uploading picture...
+[05/18/2022, 21:59:39][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:59:39][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:39][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 21:59:39][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:59:40][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:41][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 21:59:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:43][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:43][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:44][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:44][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:45][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:45][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:45][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:45][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:46][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:46][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:46][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:46][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:46][MQTT] : INFO : Returned from Callback
+[05/18/2022, 21:59:46][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 21:59:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:02][MAIN] : INFO : Temperatrue has changed! : 75.2
+[05/18/2022, 22:00:02][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:02][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:04][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:04][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:04][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:04][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:04][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:05][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:26][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:27][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:28][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:28][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:29][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:29][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:00:30][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:00:44][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:00:44][CAM] : INFO : Taking picture...
+[05/18/2022, 22:00:51][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:00:54][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:00:55][MAIN] : INFO : Temperatrue has changed! : 75.09
+[05/18/2022, 22:01:01][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:01][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:02][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:02][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:02][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:02][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:02][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:02][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:02][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:03][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:04][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:06][MAIN] : INFO : Temperatrue has changed! : 75.2
+[05/18/2022, 22:01:13][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:13][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:13][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:14][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:14][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:16][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:01:16][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:01:16][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:17][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:01:17][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:01:17][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:17][MAIN] : INFO : Temperatrue has changed! : 75.09
+[05/18/2022, 22:01:18][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:01:18][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:01:28][MAIN] : INFO : Temperatrue has changed! : 75.2
+[05/18/2022, 22:01:39][MAIN] : INFO : Temperatrue has changed! : 75.09
+[05/18/2022, 22:01:50][MAIN] : INFO : Temperatrue has changed! : 74.97
+[05/18/2022, 22:02:00][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:02:00][CAM] : INFO : Taking picture...
+[05/18/2022, 22:02:00][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:02:00][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:02:00][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:01][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:02:01][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:02:01][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:02][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:02:02][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:02:02][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:04][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:06][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:02:06][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:02:07][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:02:07][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:07][MAIN] : INFO : Temperatrue has changed! : 74.86
+[05/18/2022, 22:02:10][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:02:10][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:12][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:02:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:13][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:02:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:16][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:16][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:17][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:17][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:18][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:18][MAIN] : INFO : Temperatrue has changed! : 74.97
+[05/18/2022, 22:02:18][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:19][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:19][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:19][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:19][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:20][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:20][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:21][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:21][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:21][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:21][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:22][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:22][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:23][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:23][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:24][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:24][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:25][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:26][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:26][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:26][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:27][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:27][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:27][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:28][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:29][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:02:29][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:02:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:30][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:31][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:02:31][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:02:31][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:11][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:03:11][CAM] : INFO : Taking picture...
+[05/18/2022, 22:03:18][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:03:18][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:03:19][MAIN] : INFO : Temperatrue has changed! : 74.86
+[05/18/2022, 22:03:30][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:03:30][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:30][MAIN] : INFO : Temperatrue has changed! : 74.97
+[05/18/2022, 22:03:30][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:03:30][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:31][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:03:31][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:32][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:03:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:32][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:03:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:32][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:03:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:33][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:03:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:33][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:03:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:37][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 22:03:37][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 22:03:39 ] ========
+[05/18/2022, 22:03:39][MAIN] : INFO : Logger started!
+[05/18/2022, 22:03:39][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:03:39][DS] : INFO : Logger linked!
+[05/18/2022, 22:03:39][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:03:39][CAM] : INFO : logger linked!
+[05/18/2022, 22:03:39][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:03:39][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:03:39][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:03:39][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:03:39][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:03:39][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:03:39][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:03:39][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:03:39][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:03:39][CAM] : INFO : Taking picture...
+[05/18/2022, 22:03:39][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:03:41][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:03:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:44][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:03:44][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:03:45][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:03:46][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:03:47][MAIN] : INFO : Temperatrue has changed! : 74.86
+[05/18/2022, 22:03:47][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:03:47][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:04:05][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:04:05][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:04:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:06][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:04:07][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:04:07][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:08][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:04:08][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:11][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:11][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:11][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:11][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:12][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:12][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:12][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:12][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:12][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:12][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:17][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:17][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:17][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:17][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:17][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:04:17][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:19][MAIN] : INFO : Temperatrue has changed! : 74.75
+[05/18/2022, 22:04:20][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:04:20][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:23][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:04:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:30][MAIN] : INFO : Temperatrue has changed! : 74.86
+[05/18/2022, 22:04:41][MAIN] : INFO : Temperatrue has changed! : 75.09
+[05/18/2022, 22:04:51][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:04:51][CAM] : INFO : Taking picture...
+[05/18/2022, 22:04:53][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:04:53][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:56][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:04:56][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:57][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:04:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:04:57][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:04:58][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:04:59][MAIN] : INFO : Temperatrue has changed! : 74.86
+[05/18/2022, 22:04:59][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 22:04:59][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:02][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:05:02][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:04][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:05:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:06][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:05:06][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:13][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:05:13][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:05:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:15][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:05:16][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:17][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:05:17][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:20][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:05:20][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:22][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 22:05:23][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:25][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:05:25][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:26][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:05:26][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:26][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:05:27][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:27][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:05:27][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:28][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:05:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:31][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:05:31][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:32][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:05:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:32][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:05:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:34][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:05:34][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:35][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:05:35][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:37][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:05:37][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:05:37][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:38][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:05:38][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:05:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:38][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:05:38][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:05:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:39][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:05:39][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:05:39][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:41][MQTT] : INFO : Received: reset b''
+[05/18/2022, 22:05:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:05:52][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 22:05:52][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 22:05:53 ] ========
+[05/18/2022, 22:05:53][MAIN] : INFO : Logger started!
+[05/18/2022, 22:05:53][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:05:53][DS] : INFO : Logger linked!
+[05/18/2022, 22:05:53][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:05:53][CAM] : INFO : logger linked!
+[05/18/2022, 22:05:53][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:05:53][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:05:53][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:05:53][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:05:53][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:05:53][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:05:53][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:05:53][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:05:53][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:05:53][CAM] : INFO : Taking picture...
+[05/18/2022, 22:05:53][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:06:00][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:06:00][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:06:01][MAIN] : INFO : Temperatrue has changed! : 74.97
+[05/18/2022, 22:06:01][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:06:01][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:06:04][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 22:06:05][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 22:16:31 ] ========
+[05/18/2022, 22:16:31][MAIN] : INFO : Logger started!
+[05/18/2022, 22:16:31][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:16:31][DS] : INFO : Logger linked!
+[05/18/2022, 22:16:31][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:16:31][CAM] : INFO : logger linked!
+[05/18/2022, 22:16:31][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:16:32][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:16:32][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:16:32][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:16:32][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:16:32][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:16:32][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:16:32][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:16:32][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:16:32][CAM] : INFO : Taking picture...
+[05/18/2022, 22:16:32][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:16:38][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:16:39][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:16:40][MAIN] : INFO : Temperatrue has changed! : 74.08
+[05/18/2022, 22:16:40][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:16:40][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:16:46][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:16:47][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:16:51][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:16:51][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:16:53][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 22:16:53][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:16:55][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:16:55][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:16:58][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:16:58][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:16:59][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:16:59][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:16:59][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:01][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:17:01][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:17:01][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:02][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:17:02][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:17:02][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:04][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:17:04][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:17:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:05][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:17:05][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:17:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:05][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:17:05][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:17:05][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:12][MAIN] : INFO : Temperatrue has changed! : 74.19
+[05/18/2022, 22:17:13][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 22:17:13][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 22:17:35 ] ========
+[05/18/2022, 22:17:35][MAIN] : INFO : Logger started!
+[05/18/2022, 22:17:35][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:17:35][DS] : INFO : Logger linked!
+[05/18/2022, 22:17:35][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:17:35][CAM] : INFO : logger linked!
+[05/18/2022, 22:17:35][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:17:35][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:17:35][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:17:35][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:17:35][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:17:35][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:17:35][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:17:35][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:17:35][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:17:35][CAM] : INFO : Taking picture...
+[05/18/2022, 22:17:35][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:17:42][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:17:42][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:17:43][MAIN] : INFO : Temperatrue has changed! : 74.08
+[05/18/2022, 22:17:43][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:17:43][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:17:50][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:17:50][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:17:50][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:53][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:17:53][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:55][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:17:55][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:56][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:17:56][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:57][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:17:57][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:17:59][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:17:59][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:00][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:18:00][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:18:00][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:01][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:18:01][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:03][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:18:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:04][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:18:04][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:18:04][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:05][MAIN] : INFO : Temperatrue has changed! : 73.96
+[05/18/2022, 22:18:07][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:18:07][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:08][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:18:08][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:18:08][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:09][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:18:09][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:10][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:18:10][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:18:10][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:12][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:18:12][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:18:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:14][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:18:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:16][MAIN] : INFO : Temperatrue has changed! : 74.08
+[05/18/2022, 22:18:16][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:18:16][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:18][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:18:19][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:18:23][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 22:18:23][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 22:19:03 ] ========
+[05/18/2022, 22:19:03][MAIN] : INFO : Logger started!
+[05/18/2022, 22:19:03][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:19:03][DS] : INFO : Logger linked!
+[05/18/2022, 22:19:03][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:19:03][CAM] : INFO : logger linked!
+[05/18/2022, 22:19:03][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:19:03][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:19:03][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:19:03][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:19:03][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:19:03][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:19:03][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:19:03][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:19:03][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:19:03][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:19:03][CAM] : INFO : Taking picture...
+[05/18/2022, 22:19:06][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:06][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:07][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:08][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:08][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:09][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:09][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:19:09][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:10][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:10][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:19:10][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:11][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:11][MAIN] : INFO : Temperatrue has changed! : 73.96
+[05/18/2022, 22:19:11][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:19:11][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:19:11][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:11][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:12][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:12][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:13][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:13][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:14][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:14][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:22][MAIN] : INFO : Temperatrue has changed! : 74.19
+[05/18/2022, 22:19:32][MAIN] : INFO : Temperatrue has changed! : 74.08
+[05/18/2022, 22:19:58][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:19:58][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:19:59][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:20:00][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:03][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:20:03][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:20:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:03][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:20:03][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:20:03][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:15][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:20:15][CAM] : INFO : Taking picture...
+[05/18/2022, 22:20:18][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:20:18][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:20][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:20:20][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:20:20][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:21][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:20:21][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:20:21][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:21][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:20:21][MQTT] : INFO : Received: Air b'True'
+[05/18/2022, 22:20:21][MAIN/update_air] : INFO : Setting air to true
+[05/18/2022, 22:20:21][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:22][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:20:23][MAIN] : INFO : Temperatrue has changed! : 73.96
+[05/18/2022, 22:20:24][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:20:24][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:27][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:20:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:28][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:20:28][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:29][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:20:29][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:29][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:20:30][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:32][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:20:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:34][MAIN] : INFO : Temperatrue has changed! : 74.08
+[05/18/2022, 22:20:34][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:20:35][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:37][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 22:20:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:20:40][MQTT] : INFO : Received: light b'off'
+[05/18/2022, 22:20:40][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:21:19][MQTT] : INFO : Received: Air b'False'
+[05/18/2022, 22:21:19][MAIN/update_air] : INFO : Setting air to false
+[05/18/2022, 22:21:19][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:21:27][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:21:27][CAM] : INFO : Taking picture...
+[05/18/2022, 22:21:33][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:21:34][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:21:39][MQTT] : INFO : Received: measure/ds b''
+[05/18/2022, 22:21:39][DS] : INFO : Measure: 0
+[05/18/2022, 22:21:39][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:21:46][MAIN] : INFO : Temperatrue has changed! : 74.19
+======== [ RESTART: 05/18/2022, 22:24:28 ] ========
+[05/18/2022, 22:24:28][MAIN] : INFO : Logger started!
+[05/18/2022, 22:24:28][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:24:28][DS] : INFO : Logger linked!
+[05/18/2022, 22:24:28][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:24:28][CAM] : INFO : logger linked!
+[05/18/2022, 22:24:28][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:24:29][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:24:29][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:24:29][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:24:29][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:24:29][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:24:29][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:24:29][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:24:29][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:24:29][CAM] : INFO : Taking picture...
+[05/18/2022, 22:24:29][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:24:33][MQTT] : INFO : Received: measure/ds b''
+[05/18/2022, 22:24:33][DS] : INFO : Measure: 0
+[05/18/2022, 22:24:33][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:24:35][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:24:37][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:24:38][MAIN] : INFO : Temperatrue has changed! : 73.96
+[05/18/2022, 22:24:38][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:24:38][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:25:10][MAIN] : INFO : Temperatrue has changed! : 74.08
+[05/18/2022, 22:25:21][MAIN] : INFO : Temperatrue has changed! : 73.96
+[05/18/2022, 22:25:42][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:25:42][CAM] : INFO : Taking picture...
+[05/18/2022, 22:25:48][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:25:49][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:25:50][MAIN] : INFO : Temperatrue has changed! : 73.85
+[05/18/2022, 22:26:22][MAIN] : INFO : Temperatrue has changed! : 73.96
+[05/18/2022, 22:26:33][MAIN] : INFO : Temperatrue has changed! : 73.85
+[05/18/2022, 22:26:54][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:26:54][CAM] : INFO : Taking picture...
+[05/18/2022, 22:26:57][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:26:57][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:26:58][MAIN] : WARN :Temp returned invalid value!
+[05/18/2022, 22:26:59][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 22:26:59][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 22:27:51 ] ========
+[05/18/2022, 22:27:51][MAIN] : INFO : Logger started!
+[05/18/2022, 22:27:51][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:27:51][DS] : INFO : Logger linked!
+[05/18/2022, 22:27:51][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:27:51][CAM] : INFO : logger linked!
+[05/18/2022, 22:27:51][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:27:51][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:27:51][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:27:51][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:27:51][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:27:51][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:27:51][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:27:51][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:27:51][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:27:51][CAM] : INFO : Taking picture...
+[05/18/2022, 22:27:51][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:27:57][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:27:58][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:27:59][MAIN] : INFO : Temperatrue has changed! : 73.62
+[05/18/2022, 22:27:59][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:27:59][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:27:59][DS] : INFO : Measure: 0
+[05/18/2022, 22:28:10][MAIN] : INFO : Temperatrue has changed! : 73.74
+[05/18/2022, 22:28:10][DS] : INFO : Measure: 0
+[05/18/2022, 22:28:19][MAIN] : NOTICE :Received kill signal
+[05/18/2022, 22:28:19][DS] : NOTICE :Cleaning up...
+======== [ RESTART: 05/18/2022, 22:29:40 ] ========
+[05/18/2022, 22:29:40][MAIN] : INFO : Logger started!
+[05/18/2022, 22:29:40][MQTT] : INFO : Logger linked!
+[05/18/2022, 22:29:40][DS] : INFO : Logger linked!
+[05/18/2022, 22:29:40][TEMP] : INFO : Logger linked!
+[05/18/2022, 22:29:40][CAM] : INFO : logger linked!
+[05/18/2022, 22:29:40][MQTT] : INFO : Waiting for Connection...
+[05/18/2022, 22:29:40][MQTT] : INFO : Callback recorded: light
+[05/18/2022, 22:29:40][MQTT] : INFO : Callback recorded: Air
+[05/18/2022, 22:29:40][MQTT] : INFO : Callback recorded: measure/ds
+[05/18/2022, 22:29:40][MQTT] : INFO : Callback recorded: pic/take
+[05/18/2022, 22:29:40][MQTT] : INFO : Callback recorded: reset
+[05/18/2022, 22:29:40][MQTT] : INFO : Callback recorded: reboot
+[05/18/2022, 22:29:40][MAIN] : NOTICE :System Started!
+[05/18/2022, 22:29:40][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:29:40][MQTT] : INFO : Connection Established!
+[05/18/2022, 22:29:40][CAM] : INFO : Taking picture...
+[05/18/2022, 22:29:47][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:29:48][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:29:49][MAIN] : INFO : Temperatrue has changed! : 73.62
+[05/18/2022, 22:29:49][MAIN] : INFO : Water level has changed
+[05/18/2022, 22:29:49][MAIN] : WARN :Water level is low!
+[05/18/2022, 22:29:49][DS] : INFO : Measure: 0
+[05/18/2022, 22:30:00][DS] : INFO : Measure: 0
+[05/18/2022, 22:30:11][DS] : INFO : Measure: 0
+[05/18/2022, 22:30:22][DS] : INFO : Measure: 0
+[05/18/2022, 22:30:25][MQTT] : INFO : Received: pic/take b''
+[05/18/2022, 22:30:25][CAM] : INFO : Taking picture...
+[05/18/2022, 22:30:31][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:30:32][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:30:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:32][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:30:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:32][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:30:32][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:33][DS] : INFO : Measure: 0
+[05/18/2022, 22:30:34][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:30:34][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:35][MQTT] : INFO : Received: light b'white'
+[05/18/2022, 22:30:35][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:38][MQTT] : INFO : Received: light b'red'
+[05/18/2022, 22:30:38][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:41][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:30:41][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:43][MQTT] : INFO : Received: light b'green'
+[05/18/2022, 22:30:43][DS] : INFO : Measure: 0
+[05/18/2022, 22:30:44][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:49][MQTT] : INFO : Received: light b'blue'
+[05/18/2022, 22:30:49][MQTT] : INFO : Returned from Callback
+[05/18/2022, 22:30:53][MAIN] : INFO : Picture triggered!
+[05/18/2022, 22:30:53][CAM] : INFO : Taking picture...
+[05/18/2022, 22:31:00][CAM] : INFO : Uploading picture...
+[05/18/2022, 22:31:00][CAM] : INFO : Uploaded with response: <Response [200]>
+[05/18/2022, 22:31:01][DS] : INFO : Measure: 0
+[05/18/2022, 22:31:12][DS] : INFO : Measure: 0
+[05/18/2022, 22:31:23][DS] : INFO : Measure: 0

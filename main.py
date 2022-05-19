@@ -73,6 +73,7 @@ def update_air(air):
             logger.log_err(MY_NAME+"/update_air","Something went wrong...")
 def fix_fill(value):
         for i in range(13,60):
+            time.sleep(0.001)
             leds[i]=value
 def update_led(light):
         if(light == "off"):
@@ -93,7 +94,7 @@ def update_led(light):
 
 def measure_ds(dummy):
        res=ds.measure()
-       mqtt.publish("ds",res)
+       mqtt.publish("ds",str(res))
 def resetter(dummy):
        global alive
        alive=0;
@@ -146,7 +147,7 @@ try:
             else:
                    logger.log_info(MY_NAME,"Water level is good!")
                    mqtt.publish("waterlevel","good")
-                   
+        measure_ds(None)
         power_stat = GPIO.input(powerpin)
         
         if(power_stat!=last_stat):
